@@ -1,0 +1,21 @@
+{
+  "task": "T002_storyforge_ai",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "temperature": 0.2,
+  "max_tokens": 16000,
+  "timeout": 1200,
+  "timestamp": "20260515_150351",
+  "required_files": [
+    "content_kpi_check.csv",
+    "investment_memo.md",
+    "risk_log.md",
+    "founder_follow_up_email.md"
+  ],
+  "parsed_artifacts": [
+    "content_kpi_check.csv",
+    "founder_follow_up_email.md",
+    "investment_memo.md",
+    "risk_log.md"
+  ]
+}

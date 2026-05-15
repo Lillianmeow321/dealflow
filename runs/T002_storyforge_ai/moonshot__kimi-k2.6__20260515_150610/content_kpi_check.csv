@@ -1,0 +1,12 @@
+metric,company_reported_value,recalculated_or_verified_value,status,note
+Cost per episode before AI,6800,6800,verified,From production_workflow.md and cost_comparison.csv
+Cost per episode after AI,2450,2450,verified,From production_workflow.md and cost_comparison.csv; management claim of 64% reduction is accurate ((6800-2450)/6800 = 63.97%)
+Production cycle time before AI,14 days,14 days,verified,From production_workflow.md and cost_comparison.csv
+Production cycle time after AI,4.5 days,4.5 days,verified,From production_workflow.md and cost_comparison.csv; management claim of 68% faster is accurate ((14-4.5)/14 = 67.86%)
+Output volume increase,4.1x (18 to 74 episodes/month),4.11x (18 to 74 episodes/month),verified,From cost_comparison.csv; 74/18 = 4.11x
+Episode completion rate,49%,47.31%,inconsistent,Management reports 49% across launched series; recalculated from episode_performance.csv as 11,128,000 / 23,520,000 = 47.31%. Note: company may weight by series or use different denominator
+Series continuation rate,Not explicitly stated,31.96%,needs_follow_up,Calculated from episode_performance.csv as 3,556,000 / 11,128,000 = 31.96%; management does not provide a direct comparable figure
+Paid conversion rate,11% among engaged viewers,9.27%,inconsistent,Management claims 11% paid conversion among engaged viewers; recalculated from episode_performance.csv as 166,685 / 1,798,000 = 9.27%. Discrepancy may reflect definition of engaged viewers or timing differences
+Revenue per completed viewer,Not stated,0.027 USD,needs_follow_up,Calculated from episode_performance.csv as total revenue ($410,833) / completions (11,128,000) = $0.037 per completion; or paid revenue ($300,033) / completions = $0.027. Management does not provide this metric
+Platform concentration,Not explicitly stated,71% TikTok views; 63% TikTok paid users,verified,From platform_distribution_report.md; extreme concentration on single platform
+Copyright/IP risk status,Manageable,Manageable but with significant gaps,needs_follow_up,From copyright_ip_memo.md: no formal chain-of-title, inconsistent asset provenance tracking, two platform notices received, no external clearance for top series, inconsistent contractor IP assignment

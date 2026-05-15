@@ -1,0 +1,10 @@
+metric,before_ai_workflow,current_ai_workflow,management_claim,notes
+cost_per_episode_usd,6800,2450,64% lower,Management compares current AI workflow with old outsourced comic drama workflow
+production_cycle_days,14,4.5,68% faster,Calendar days from outline approval to finished episode
+episodes_per_month,18,74,4.1x output,Monthly output across all active series
+human_hours_per_episode,112,46,59% lower,Includes writing editing motion review and QA
+revision_rounds_per_episode,3.2,4.6,not highlighted,AI output requires more prompt and continuity revisions
+continuity_error_rate,4%,11%,not highlighted,Internal QA count before final publish
+legal_review_hours_per_series,2,7,not highlighted,More checks needed for asset provenance and style similarity
+average_editor_overtime_hours_per_week,6,18,not highlighted,Editor workload spikes during high-output periods
+

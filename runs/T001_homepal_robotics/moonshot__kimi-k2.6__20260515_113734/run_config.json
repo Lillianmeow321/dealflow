@@ -1,0 +1,16 @@
+{
+  "task": "T001_homepal_robotics",
+  "provider": "moonshot",
+  "model": "kimi-k2.6",
+  "temperature": 1.0,
+  "max_tokens": 6000,
+  "timeout": 900,
+  "timestamp": "20260515_113734",
+  "required_files": [
+    "product_kpi_check.csv",
+    "investment_memo.md",
+    "risk_log.md",
+    "founder_follow_up_email.md"
+  ],
+  "parsed_artifacts": []
+}

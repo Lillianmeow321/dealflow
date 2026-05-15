@@ -1,0 +1,9 @@
+segment,feature,total_events,successful_events,repeat_households,complaint_tickets,safety_tickets,management_claim
+elderly_care,medication_reminder,4120,3610,92,2,0,Core daily use case
+elderly_care,hydration_reminder,2380,1924,78,1,0,High-frequency reminder
+elderly_care,family_check_in,1620,1287,65,3,0,Subscription driver
+child_interaction,bedtime_story,4850,3010,54,8,1,High engagement
+child_interaction,open_ended_chat,3920,2140,39,23,8,Most viral demo feature
+child_interaction,homework_help,1850,980,31,12,4,Education use case
+family_assistant,calendar_reminder,1420,890,29,1,0,Smart assistant replacement
+family_assistant,shopping_list,930,510,18,0,0,Convenience feature

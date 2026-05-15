@@ -1,0 +1,301 @@
+{
+  "task_id": "T001_homepal_robotics",
+  "checks": [
+    {
+      "metric": "Demo-to-preorder conversion",
+      "formula": "total preorders / total demo attendees",
+      "inputs": {
+        "preorders": 269,
+        "demo_attendees": 820
+      },
+      "expected_value": 0.3280,
+      "expected_display": "32.8%",
+      "management_reported_value": "34%",
+      "expected_status": "verified",
+      "tolerance": 0.01
+    },
+    {
+      "metric": "Activation rate",
+      "formula": "total activated households / total pilot households",
+      "inputs": {
+        "activated_households": 225,
+        "pilot_households": 243
+      },
+      "expected_value": 0.9259,
+      "expected_display": "92.6%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "7-day active usage retention",
+      "formula": "total day_7_active / total pilot households",
+      "inputs": {
+        "day_7_active": 166,
+        "pilot_households": 243
+      },
+      "expected_value": 0.6831,
+      "expected_display": "68.3%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "30-day active usage retention - total pilot basis",
+      "formula": "total day_30_active / total pilot households",
+      "inputs": {
+        "day_30_active": 114,
+        "pilot_households": 243
+      },
+      "expected_value": 0.4691,
+      "expected_display": "46.9%",
+      "management_reported_value": "72% in core care cohorts",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "30-day active usage retention - activated household basis",
+      "formula": "total day_30_active / total activated households",
+      "inputs": {
+        "day_30_active": 114,
+        "activated_households": 225
+      },
+      "expected_value": 0.5067,
+      "expected_display": "50.7%",
+      "management_reported_value": "72% in core care cohorts",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Elderly care 30-day retention",
+      "formula": "elderly care day_30_active / elderly care pilot households",
+      "inputs": {
+        "elderly_care_day_30_active": 58,
+        "elderly_care_pilot_households": 80
+      },
+      "expected_value": 0.7250,
+      "expected_display": "72.5%",
+      "management_reported_value": "72% in core care cohorts",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Child interaction 30-day retention",
+      "formula": "child interaction day_30_active / child interaction pilot households",
+      "inputs": {
+        "child_interaction_day_30_active": 34,
+        "child_interaction_pilot_households": 96
+      },
+      "expected_value": 0.3542,
+      "expected_display": "35.4%",
+      "management_reported_value": "not separately disclosed",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Family assistant 30-day retention",
+      "formula": "family assistant day_30_active / family assistant pilot households",
+      "inputs": {
+        "family_assistant_day_30_active": 22,
+        "family_assistant_pilot_households": 67
+      },
+      "expected_value": 0.3284,
+      "expected_display": "32.8%",
+      "management_reported_value": "not separately disclosed",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Child interaction complaint rate",
+      "formula": "child interaction complaint tickets / child interaction pilot households",
+      "inputs": {
+        "child_interaction_complaint_tickets": 36,
+        "child_interaction_pilot_households": 96
+      },
+      "expected_value": 0.3750,
+      "expected_display": "37.5%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Child interaction safety ticket rate",
+      "formula": "child interaction safety tickets / child interaction pilot households",
+      "inputs": {
+        "child_interaction_safety_tickets": 13,
+        "child_interaction_pilot_households": 96
+      },
+      "expected_value": 0.1354,
+      "expected_display": "13.5%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Net preorders after cancellation",
+      "formula": "gross preorders - cancelled preorders",
+      "inputs": {
+        "gross_preorders": 338,
+        "cancelled_preorders": 66
+      },
+      "expected_value": 272,
+      "expected_display": "272 net preorders",
+      "management_reported_value": "338 gross preorders",
+      "expected_status": "needs_follow_up",
+      "tolerance": 1
+    },
+    {
+      "metric": "Preorder cancellation rate",
+      "formula": "cancelled preorders / gross preorders",
+      "inputs": {
+        "cancelled_preorders": 66,
+        "gross_preorders": 338
+      },
+      "expected_value": 0.1953,
+      "expected_display": "19.5%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Elderly care referral cancellation rate",
+      "formula": "elderly care partner referral cancellations / elderly care partner referral gross preorders",
+      "inputs": {
+        "cancelled_preorders": 6,
+        "gross_preorders": 78
+      },
+      "expected_value": 0.0769,
+      "expected_display": "7.7%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Parenting KOL cancellation rate",
+      "formula": "parenting KOL cancellations / parenting KOL gross preorders",
+      "inputs": {
+        "cancelled_preorders": 19,
+        "gross_preorders": 58
+      },
+      "expected_value": 0.3276,
+      "expected_display": "32.8%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Online ads cancellation rate",
+      "formula": "online ads cancellations / online ads gross preorders",
+      "inputs": {
+        "cancelled_preorders": 10,
+        "gross_preorders": 29
+      },
+      "expected_value": 0.3448,
+      "expected_display": "34.5%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Paid pilot household rate",
+      "formula": "paid pilot households / structured pilot households",
+      "inputs": {
+        "paid_pilot_households": 58,
+        "structured_pilot_households": 243
+      },
+      "expected_value": 0.2387,
+      "expected_display": "23.9%",
+      "management_reported_value": "58 paid pilot households",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Family assistant return intent rate",
+      "formula": "family assistant return intent households / family assistant pilot households",
+      "inputs": {
+        "family_assistant_return_intent_households": 15,
+        "family_assistant_pilot_households": 67
+      },
+      "expected_value": 0.2239,
+      "expected_display": "22.4%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Hardware gross margin - management launch case",
+      "formula": "(retail price - management total direct cost) / retail price",
+      "inputs": {
+        "retail_price": 1299,
+        "management_total_bom_and_direct_cost": 788
+      },
+      "expected_value": 0.3934,
+      "expected_display": "39.3%",
+      "management_reported_value": "38%",
+      "expected_status": "verified",
+      "tolerance": 0.015
+    },
+    {
+      "metric": "Hardware gross margin - current pilot cost",
+      "formula": "(retail price - current pilot total direct cost) / retail price",
+      "inputs": {
+        "retail_price": 1299,
+        "current_pilot_total_bom_and_direct_cost": 1033
+      },
+      "expected_value": 0.2048,
+      "expected_display": "20.5%",
+      "management_reported_value": "38%",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "BOM cost per unit",
+      "formula": "total_bom_and_direct_cost",
+      "inputs": {
+        "management_launch_case_usd": 788,
+        "current_pilot_cost_usd": 1033
+      },
+      "expected_value": {
+        "management_case": 788,
+        "current_pilot": 1033
+      },
+      "expected_display": "$788 management case; $1033 current pilot cost",
+      "management_reported_value": "$788",
+      "expected_status": "needs_follow_up",
+      "tolerance": 1
+    },
+    {
+      "metric": "Manufacturing yield assumption",
+      "formula": "compare current first-pass yield with month 4 mass production assumption",
+      "inputs": {
+        "pilot_first_pass_yield": 0.86,
+        "month_4_assumed_first_pass_yield": 0.95
+      },
+      "expected_value": {
+        "pilot_first_pass_yield": "86%",
+        "month_4_assumed_first_pass_yield": "95%"
+      },
+      "expected_display": "86% current first-pass yield versus 95% month-4 target",
+      "management_reported_value": "95% by month 4",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Warranty / return cost assumption",
+      "formula": "warranty reserve / retail price",
+      "inputs": {
+        "management_warranty_reserve": 39,
+        "pilot_warranty_reserve": 104,
+        "retail_price": 1299
+      },
+      "expected_value": {
+        "management_case": 0.0300,
+        "pilot_experience": 0.0801
+      },
+      "expected_display": "3.0% management case; 8.0% pilot experience",
+      "management_reported_value": "3% of retail price",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    }
+  ]
+}

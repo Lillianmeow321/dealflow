@@ -1,0 +1,163 @@
+{
+  "task_id": "T002_storyforge_ai",
+  "checks": [
+    {
+      "metric": "Cost per episode reduction",
+      "formula": "(before AI cost - current AI cost) / before AI cost",
+      "inputs": {
+        "before_ai_cost_per_episode_usd": 6800,
+        "current_ai_cost_per_episode_usd": 2450
+      },
+      "expected_value": 0.6397,
+      "expected_display": "64.0%",
+      "management_reported_value": "64% lower",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Production cycle time reduction",
+      "formula": "(before AI days - current AI days) / before AI days",
+      "inputs": {
+        "before_ai_production_cycle_days": 14,
+        "current_ai_production_cycle_days": 4.5
+      },
+      "expected_value": 0.6786,
+      "expected_display": "67.9%",
+      "management_reported_value": "68% faster",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Output volume increase",
+      "formula": "current monthly episodes / before AI monthly episodes",
+      "inputs": {
+        "current_episodes_per_month": 74,
+        "before_ai_episodes_per_month": 18
+      },
+      "expected_value": 4.1111,
+      "expected_display": "4.1x",
+      "management_reported_value": "4.1x output",
+      "expected_status": "verified",
+      "tolerance": 0.05
+    },
+    {
+      "metric": "Aggregate episode completion rate",
+      "formula": "episode completions / episode starts",
+      "inputs": {
+        "episode_completions": 11038000,
+        "episode_starts": 22520000
+      },
+      "expected_value": 0.4901,
+      "expected_display": "49.0%",
+      "management_reported_value": "49%",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Series continuation rate from completed viewers",
+      "formula": "series continuations / episode completions",
+      "inputs": {
+        "series_continuations": 3556000,
+        "episode_completions": 11038000
+      },
+      "expected_value": 0.3222,
+      "expected_display": "32.2%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Series continuation rate from episode starts",
+      "formula": "series continuations / episode starts",
+      "inputs": {
+        "series_continuations": 3556000,
+        "episode_starts": 22520000
+      },
+      "expected_value": 0.1579,
+      "expected_display": "15.8%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Paid conversion among engaged viewers",
+      "formula": "paid users / engaged viewers",
+      "inputs": {
+        "paid_users": 166685,
+        "engaged_viewers": 1798000
+      },
+      "expected_value": 0.0927,
+      "expected_display": "9.3%",
+      "management_reported_value": "11%",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Paid conversion among completed viewers",
+      "formula": "paid users / episode completions",
+      "inputs": {
+        "paid_users": 166685,
+        "episode_completions": 11038000
+      },
+      "expected_value": 0.0151,
+      "expected_display": "1.5%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.002
+    },
+    {
+      "metric": "Revenue per completed viewer",
+      "formula": "paid unlock revenue / episode completions",
+      "inputs": {
+        "paid_unlock_revenue_usd": 300033,
+        "episode_completions": 11038000
+      },
+      "expected_value": 0.0272,
+      "expected_display": "$0.027 per completed viewer",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.002
+    },
+    {
+      "metric": "Top two series view concentration",
+      "formula": "(SF001 views + SF002 views) / total views",
+      "inputs": {
+        "sf001_views": 18400000,
+        "sf002_views": 12200000,
+        "total_views": 43490000
+      },
+      "expected_value": 0.7036,
+      "expected_display": "70.4%",
+      "management_reported_value": "top series have reached more than 40M aggregate views",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Top two series paid user concentration",
+      "formula": "(SF001 paid users + SF002 paid users) / total paid users",
+      "inputs": {
+        "sf001_paid_users": 98400,
+        "sf002_paid_users": 51840,
+        "total_paid_users": 166685
+      },
+      "expected_value": 0.9014,
+      "expected_display": "90.1%",
+      "management_reported_value": "not explicitly reported",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "TikTok platform concentration",
+      "formula": "TikTok share of total views",
+      "inputs": {
+        "tiktok_share_of_total_views": 0.71
+      },
+      "expected_value": 0.71,
+      "expected_display": "71% of total views",
+      "management_reported_value": "not explicitly reported in overview",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    }
+  ]
+}
+

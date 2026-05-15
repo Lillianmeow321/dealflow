@@ -1,0 +1,7 @@
+cohort_id,city,segment,acquisition_channel,pilot_households,demo_attendees,preorders,activated_households,day_1_active,day_7_active,day_14_active,day_30_active,avg_sessions_per_active_day,avg_session_minutes,core_feature_usage_rate,subscription_interest_rate,complaint_tickets,safety_tickets,return_intent_households,notes
+EC_SH_01,Shanghai,elderly_care,offline_demo,42,150,61,39,38,35,33,31,5.8,4.6,78%,64%,3,0,2,Strong medication reminder usage
+EC_SZ_02,Shenzhen,elderly_care,partner_referral,38,110,49,36,35,31,29,27,6.2,4.9,82%,69%,2,0,1,Adult children value family notifications
+CI_SH_01,Shanghai,child_interaction,offline_demo,50,190,63,47,45,34,25,18,7.1,6.8,41%,22%,19,7,11,High week-one novelty then decline
+CI_HZ_02,Hangzhou,child_interaction,parenting_kol,46,170,58,43,41,29,21,16,6.6,5.9,38%,19%,17,6,9,Parents concerned about open-ended answers
+FA_SG_01,Singapore,family_assistant,online_ads,35,105,20,31,28,19,16,12,3.4,3.1,29%,14%,3,0,8,Smart speaker substitution mentioned
+FA_TP_01,Taipei,family_assistant,offline_demo,32,95,18,29,26,18,13,10,3.1,2.8,25%,12%,2,0,7,Low willingness to pay at hardware price

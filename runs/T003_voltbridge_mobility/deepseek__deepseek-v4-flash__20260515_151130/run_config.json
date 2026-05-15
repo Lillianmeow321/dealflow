@@ -1,0 +1,21 @@
+{
+  "task": "T003_voltbridge_mobility",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "temperature": 0.2,
+  "max_tokens": 20000,
+  "timeout": 1500,
+  "timestamp": "20260515_151130",
+  "required_files": [
+    "operating_kpi_check.csv",
+    "ic_investment_note.md",
+    "risk_log.md",
+    "management_follow_up_email.md"
+  ],
+  "parsed_artifacts": [
+    "ic_investment_note.md",
+    "management_follow_up_email.md",
+    "operating_kpi_check.csv",
+    "risk_log.md"
+  ]
+}

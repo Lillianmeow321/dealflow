@@ -1,0 +1,15 @@
+line_item,2023_usd,2024_usd,2025_usd,notes
+net_income,210000,300000,-2999600,Ties to income statement
+depreciation_and_amortization,200000,400000,700000,Non-cash add-back
+change_in_accounts_receivable,-1200000,-2800000,-4900000,Distributor receivables increased
+change_in_inventory,-2100000,-3200000,-5900000,Inventory build for Europe and Southeast Asia
+change_in_prepaids_and_other_assets,-300000,-400000,-900000,Battery cell and freight deposits
+change_in_accounts_payable,1300000,2300000,2800000,Supplier financing partially offsets inventory build
+change_in_warranty_accrual_and_deposits,800000,700000,1400000,Customer deposits and warranty accrual increase
+net_cash_from_operating_activities,-1090000,-2700000,-9800000,Operating cash flow
+capital_expenditure,-500000,-1700000,-3000000,Service centers tooling and test equipment
+net_cash_from_investing_activities,-500000,-1700000,-3000000,Investing cash flow
+debt_and_equity_financing,2500000,6800000,11000000,New working capital debt and equity financing
+net_cash_from_financing_activities,2500000,6800000,11000000,Financing cash flow
+net_change_in_cash,910000,2400000,-1800000,Change in cash balance
+ending_cash,3200000,5600000,3800000,Ties to balance sheet

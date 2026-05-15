@@ -1,0 +1,9 @@
+adjustment,2025_usd,management_rationale,diligence_view,quality
+reported_ebitda,-1819600,Base reported EBITDA before D&A interest and tax,Actual reported profitability,actual
+launch_marketing_addback,900000,One-time Eurobike launch and regional influencer campaign,Partly recurring because new market launches are core to growth plan,questionable
+incremental_warranty_addback,780000,Temporary quality issue tied to winter motor controller and battery complaints,Questionable because warranty issues are linked to product quality and channel scale,questionable
+compliance_expense_addback,420000,One-time EU cargo model certification and battery documentation,Partly recurring for new models and new markets,partial
+founder_recruiting_and_transaction_fees,320000,Non-recurring senior hiring and financing process fees,More acceptable add-back if documented,acceptable
+inventory_markdown_addback,500000,Prior-year commuter SKU markdowns not expected to repeat,Questionable because aged inventory remains elevated,questionable
+management_adjusted_ebitda,1100000,Adjusted EBITDA presented by management,Adjusted EBITDA depends heavily on low-quality add-backs,reported_by_management
+

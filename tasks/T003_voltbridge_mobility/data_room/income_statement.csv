@@ -1,0 +1,36 @@
+line_item,2023_usd,2024_usd,2025_usd,notes
+revenue_europe_distributors,12800000,22300000,30400000,Includes top 3 and other European distributors
+revenue_europe_marketplace_dtc,1900000,4000000,5800000,Amazon marketplace and DTC site
+revenue_southeast_asia,5300000,4700000,10700000,Retail partners and marketplace
+gross_revenue,20000000,31000000,46900000,Gross sales before returns and credits
+returns_and_customer_credits,0,0,-100000,Credits issued for delayed shipments and returns
+net_revenue,20000000,31000000,46800000,Ties to management presentation and regional_sales.csv
+product_cogs,11600000,17050000,26680000,Bike components frame battery motor controller assembly
+inbound_freight_and_duties,1500000,2400000,4050000,Sea freight EU duties and customs handling
+marketplace_fees_and_payment_processing,300000,620000,1120000,Amazon and marketplace transaction costs
+standard_warranty_reserve,600000,1100000,1700000,Standard warranty accrual included in COGS
+inventory_write_downs,300000,500000,1400500,Aged SKU provisions and markdowns
+total_cogs,14300000,21670000,34950500,COGS used for gross margin calculation
+gross_profit,5700000,9330000,11849500,2025 reconciles to channel gross profit table
+gross_margin_pct,28.5%,30.1%,25.3%,Management presentation reports 28.4% for 2025 before full channel/warranty adjustments
+performance_marketing,900000,1800000,3100000,Marketplace ads paid social and DTC acquisition
+distributor_rebates_and_retail_allowances,700000,1300000,2400000,Volume rebates retail demo support and sell-through allowances
+trade_shows_and_launch_marketing,300000,600000,900000,Eurobike regional launches and influencer campaigns
+service_center_and_spare_parts_opex,500000,500000,500000,Local service setup not fully loaded into COGS
+sales_and_marketing,2400000,4200000,6900000,Subtotal
+product_engineering,500000,650000,900000,New model development
+certification_and_testing,200000,300000,550000,CE EN15194 battery and cargo model testing
+software_and_connectivity,100000,150000,250000,Firmware app and anti-theft features
+research_and_development,800000,1100000,1700000,Subtotal
+finance_hr_legal,700000,950000,1300000,Corporate overhead
+overseas_subsidiary_admin,300000,550000,900000,EU and SEA entity administration
+professional_fees,200000,350000,650000,Audit tax legal and compliance
+management_and_other_gna,200000,250000,350000,Other G&A
+general_and_admin,1400000,2100000,3200000,Subtotal
+incremental_warranty_and_aftersales,500000,900000,1869100,2025 ties to warranty_and_returns.csv and excludes standard warranty already in COGS
+reported_ebitda,600000,1030000,-1819600,Before depreciation interest and tax
+depreciation_and_amortization,200000,400000,700000,Warehousing fixtures tooling and service equipment
+ebit,400000,630000,-2519600,Reported EBITDA less D&A
+interest_expense,120000,210000,480000,Increase driven by working capital debt
+tax_expense,70000,120000,0,No cash tax in 2025 due to loss position
+net_income,210000,300000,-2999600,Net income after interest and tax

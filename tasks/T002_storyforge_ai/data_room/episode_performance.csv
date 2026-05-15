@@ -1,0 +1,11 @@
+series_id,series_title,genre,episodes_released,platform_primary,total_views,episode_starts,episode_completions,series_continuations,engaged_viewers,paid_users,paid_unlock_revenue_usd,platform_revenue_usd,production_cost_usd,notes
+SF001,CEO Contract Bride,romance,18,TikTok,18400000,9200000,5150000,1850000,820000,98400,177120,46200,44100,Top hit; strong hook but comments mention formulaic plot
+SF002,Reborn As The Villainess,fantasy_revenge,16,TikTok,12200000,6100000,3410000,1090000,540000,51840,93312,31800,39200,High completion but retention drops after episode 10
+SF003,My AI Roommate,workplace_comedy,12,YouTube_Shorts,5800000,3100000,1220000,360000,220000,11000,19800,15100,29400,Good views but weaker paid conversion
+SF004,Dragon Debt Collector,action_fantasy,10,TikTok,2900000,1600000,520000,118000,96000,2880,5184,8100,24500,High views from one viral episode; low continuation
+SF005,Midnight Snack Club,slice_of_life,8,Instagram_Reels,1100000,740000,244000,51000,42000,840,1512,2200,19600,Positive comments but low monetization
+SF006,Office Ghost Loop,comedy_horror,9,YouTube_Shorts,1350000,820000,238000,43000,38000,760,1368,3100,22050,Completion weak after first two episodes
+SF007,The Mermaid Audit,fantasy_romance,7,TikTok,980000,520000,146000,26000,25000,625,1125,2500,17150,Visual style praised; story called confusing
+SF008,Grandma's Secret Mecha,comedy_action,6,TikTok,760000,440000,110000,18000,17000,340,612,1800,14700,Novel concept but low continuation
+total,total,all,86,mixed,43490000,23520000,11128000,3556000,1798000,166685,300033,110800,210700,Total is management-provided aggregation
+

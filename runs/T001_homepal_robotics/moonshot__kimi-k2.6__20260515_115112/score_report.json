@@ -1,0 +1,788 @@
+{
+  "task": "T001_homepal_robotics",
+  "run_dir": "/Users/annikalee/Documents/New project/DealFlowBench-mini/runs/T001_homepal_robotics/moonshot__kimi-k2.6__20260515_115112",
+  "score": 91.82,
+  "score_components": {
+    "artifacts": {
+      "score": 100.0,
+      "present": [
+        "product_kpi_check.csv",
+        "investment_memo.md",
+        "risk_log.md",
+        "founder_follow_up_email.md"
+      ],
+      "missing": []
+    },
+    "calculations": {
+      "score": 72.73,
+      "matched": 16,
+      "total": 22,
+      "details": [
+        {
+          "metric": "Demo-to-preorder conversion",
+          "expected_display": "32.8%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "verified"
+        },
+        {
+          "metric": "Activation rate",
+          "expected_display": "92.6%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "verified"
+        },
+        {
+          "metric": "7-day active usage retention",
+          "expected_display": "68.3%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "30-day active usage retention - total pilot basis",
+          "expected_display": "46.9%",
+          "matched": true,
+          "matched_evidence": [
+            "0.5"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "30-day active usage retention - activated household basis",
+          "expected_display": "50.7%",
+          "matched": true,
+          "matched_evidence": [
+            "0.5"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Elderly care 30-day retention",
+          "expected_display": "72.5%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "Child interaction 30-day retention",
+          "expected_display": "35.4%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Family assistant 30-day retention",
+          "expected_display": "32.8%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Child interaction complaint rate",
+          "expected_display": "37.5%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Child interaction safety ticket rate",
+          "expected_display": "13.5%",
+          "matched": true,
+          "matched_evidence": [
+            "0.1"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Net preorders after cancellation",
+          "expected_display": "272 net preorders",
+          "matched": true,
+          "matched_evidence": [
+            "272 net preorders",
+            "272"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Preorder cancellation rate",
+          "expected_display": "19.5%",
+          "matched": true,
+          "matched_evidence": [
+            "19.5%",
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Elderly care referral cancellation rate",
+          "expected_display": "7.7%",
+          "matched": true,
+          "matched_evidence": [
+            "7.7%",
+            "0.1"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "Parenting KOL cancellation rate",
+          "expected_display": "32.8%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Online ads cancellation rate",
+          "expected_display": "34.5%",
+          "matched": true,
+          "matched_evidence": [
+            "34.5%"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Paid pilot household rate",
+          "expected_display": "23.9%",
+          "matched": true,
+          "matched_evidence": [
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Family assistant return intent rate",
+          "expected_display": "22.4%",
+          "matched": true,
+          "matched_evidence": [
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Hardware gross margin - management launch case",
+          "expected_display": "39.3%",
+          "matched": true,
+          "matched_evidence": [
+            "39.3%"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "Hardware gross margin - current pilot cost",
+          "expected_display": "20.5%",
+          "matched": true,
+          "matched_evidence": [
+            "20.5%",
+            "0.2"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "BOM cost per unit",
+          "expected_display": "$788 management case; $1033 current pilot cost",
+          "matched": true,
+          "matched_evidence": [
+            "$788 management case; $1033 current pilot cost",
+            "788",
+            "1033"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Manufacturing yield assumption",
+          "expected_display": "86% current first-pass yield versus 95% month-4 target",
+          "matched": true,
+          "matched_evidence": [
+            "86%",
+            "95%"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Warranty / return cost assumption",
+          "expected_display": "3.0% management case; 8.0% pilot experience",
+          "matched": true,
+          "matched_evidence": [
+            "3.0%",
+            "0.1"
+          ],
+          "status": "inconsistent"
+        }
+      ]
+    },
+    "golden_facts": {
+      "score": 100.0,
+      "matched": 17,
+      "total": 17,
+      "details": [
+        {
+          "id": "gf_001",
+          "category": "demand_signal",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "34%",
+            "demo",
+            "preorder",
+            "conversion",
+            "while",
+            "raw"
+          ],
+          "fact": "Management reports a 34% demo-to-preorder conversion, while raw cohort data shows 269 preorders from 820 demo attendees, or about 32.8%."
+        },
+        {
+          "id": "gf_002",
+          "category": "retention",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "72%",
+            "day",
+            "retention",
+            "core",
+            "care",
+            "cohorts"
+          ],
+          "fact": "Management reports 72% 30-day retention in core care cohorts, but total raw data shows 114 30-day active households out of 243 pilot households, or about 46.9%."
+        },
+        {
+          "id": "gf_003",
+          "category": "retention",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "72%",
+            "retention",
+            "claim",
+            "supported",
+            "only",
+            "elderly",
+            "care",
+            "cohorts"
+          ],
+          "fact": "The 72% retention claim is directionally supported only for elderly care cohorts: 58 of 80 elderly care pilot households remain active at day 30, or about 72.5%."
+        },
+        {
+          "id": "gf_004",
+          "category": "use_case_quality",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "elderly",
+            "care",
+            "strongest",
+            "use",
+            "case",
+            "has",
+            "day",
+            "retention"
+          ],
+          "fact": "Elderly care is the strongest use case: it has about 72.5% day-30 retention, 64-69% subscription interest by cohort, and high reminder success in feature-level data."
+        },
+        {
+          "id": "gf_005",
+          "category": "use_case_risk",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "child",
+            "interaction",
+            "shows",
+            "novelty",
+            "decay",
+            "safety",
+            "concerns",
+            "day"
+          ],
+          "fact": "Child interaction shows novelty decay and safety concerns: day-30 retention is about 35.4%, complaint tickets equal 37.5% of child-interaction pilot households, and open-ended chat has the most safety tickets."
+        },
+        {
+          "id": "gf_006",
+          "category": "use_case_risk",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "family",
+            "assistant",
+            "use",
+            "weak",
+            "day",
+            "retention",
+            "subscription",
+            "interest"
+          ],
+          "fact": "Family assistant use is weak: day-30 retention is about 32.8%, subscription interest is only 12-14% by cohort, and user interviews mention smart speaker substitution."
+        },
+        {
+          "id": "gf_007",
+          "category": "feature_quality",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "high",
+            "event",
+            "volume",
+            "does",
+            "quality",
+            "demand",
+            "child",
+            "bedtime"
+          ],
+          "fact": "High event volume does not equal high-quality demand: child bedtime stories and open-ended chat generate many events, but child open-ended chat has 23 complaint tickets and 8 safety tickets."
+        },
+        {
+          "id": "gf_008",
+          "category": "commercialization",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "commercial",
+            "demand",
+            "quality",
+            "varies",
+            "channel",
+            "company",
+            "has",
+            "338"
+          ],
+          "fact": "Commercial demand quality varies by channel: the company has 338 gross preorders and $101,400 of deposits, but 66 cancellations reduce this to 272 net preorders."
+        },
+        {
+          "id": "gf_009",
+          "category": "commercialization",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "elderly",
+            "care",
+            "partner",
+            "referrals",
+            "appear",
+            "highest",
+            "quality",
+            "channel"
+          ],
+          "fact": "Elderly care partner referrals appear to be the highest-quality channel, with only 6 cancellations on 78 gross preorders, $94 CAC per net preorder, and 61% subscription trial opt-in."
+        },
+        {
+          "id": "gf_010",
+          "category": "commercialization",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "parenting",
+            "kol",
+            "online",
+            "ads",
+            "lower",
+            "quality",
+            "channels",
+            "has"
+          ],
+          "fact": "Parenting KOL and online ads are lower-quality channels: parenting KOL has 19 cancellations on 58 gross preorders and $265 CAC per net preorder, while online ads have 10 cancellations on 29 gross preorders and $310 CAC per net preorder."
+        },
+        {
+          "id": "gf_011",
+          "category": "commercialization",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "only",
+            "households",
+            "have",
+            "paid",
+            "pilot",
+            "feature",
+            "subscription",
+            "revenue"
+          ],
+          "fact": "Only 58 households have paid for extended pilot access or premium feature trials, so subscription revenue evidence is still early."
+        },
+        {
+          "id": "gf_012",
+          "category": "margin",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "assumes",
+            "launch",
+            "gross",
+            "margin",
+            "current",
+            "pilot",
+            "direct"
+          ],
+          "fact": "Management assumes a launch gross margin around 38-39%, but current pilot direct cost implies only about 20.5% gross margin at the same $1299 retail price."
+        },
+        {
+          "id": "gf_013",
+          "category": "warranty",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "assumes",
+            "warranty",
+            "reserve",
+            "$39",
+            "per",
+            "unit",
+            "retail"
+          ],
+          "fact": "Management assumes warranty reserve of $39 per unit, roughly 3% of retail price, while pilot experience implies $104 per unit, roughly 8%."
+        },
+        {
+          "id": "gf_014",
+          "category": "manufacturing",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "pilot",
+            "first",
+            "pass",
+            "manufacturing",
+            "yield",
+            "86%",
+            "while",
+            "management"
+          ],
+          "fact": "Pilot first-pass manufacturing yield is 86%, while management assumes 95% first-pass yield by month 4 of mass production."
+        },
+        {
+          "id": "gf_015",
+          "category": "manufacturing",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "final",
+            "enclosure",
+            "tooling",
+            "battery",
+            "certification",
+            "drop",
+            "testing",
+            "long"
+          ],
+          "fact": "Final enclosure tooling, battery certification, drop testing, and long-duration motor reliability testing are not complete."
+        },
+        {
+          "id": "gf_016",
+          "category": "differentiation",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "homepal",
+            "third",
+            "party",
+            "large",
+            "model",
+            "apis",
+            "open",
+            "ended"
+          ],
+          "fact": "HomePal relies on third-party large language model APIs for open-ended conversation; its proprietary layer is household memory, routine orchestration, personality tuning, and multimodal interaction patterns."
+        },
+        {
+          "id": "gf_017",
+          "category": "competition",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "smart",
+            "speakers",
+            "tablets",
+            "lower",
+            "cost",
+            "substitutes",
+            "family",
+            "assistant"
+          ],
+          "fact": "Smart speakers and tablets are lower-cost substitutes for family assistant and child interaction jobs, while elderly care has a more focused competitor set."
+        }
+      ]
+    },
+    "required_risks": {
+      "label": "risks",
+      "score": 100.0,
+      "matched": 12,
+      "total": 12,
+      "details": [
+        {
+          "item": "headline 30-day retention uses a favorable core-care cohort rather than total pilot households",
+          "matched": true,
+          "matched_keywords": [
+            "day",
+            "retention",
+            "uses",
+            "core",
+            "care",
+            "cohort",
+            "rather",
+            "total"
+          ]
+        },
+        {
+          "item": "child interaction has novelty decay, complaints, and safety/guardrail concerns",
+          "matched": true,
+          "matched_keywords": [
+            "child",
+            "interaction",
+            "has",
+            "novelty",
+            "decay",
+            "complaints",
+            "safety",
+            "concerns"
+          ]
+        },
+        {
+          "item": "family assistant use case has weak subscription interest and strong substitute risk",
+          "matched": true,
+          "matched_keywords": [
+            "family",
+            "assistant",
+            "use",
+            "case",
+            "has",
+            "weak",
+            "subscription",
+            "interest"
+          ]
+        },
+        {
+          "item": "high feature event volume does not necessarily indicate high-quality demand",
+          "matched": true,
+          "matched_keywords": [
+            "high",
+            "feature",
+            "event",
+            "volume",
+            "does",
+            "indicate",
+            "quality",
+            "demand"
+          ]
+        },
+        {
+          "item": "gross preorders overstate demand because cancellations reduce net preorders",
+          "matched": true,
+          "matched_keywords": [
+            "gross",
+            "preorders",
+            "overstate",
+            "demand",
+            "cancellations",
+            "reduce",
+            "net"
+          ]
+        },
+        {
+          "item": "channel quality is uneven; elderly care referrals are stronger than parenting KOL or online ads",
+          "matched": true,
+          "matched_keywords": [
+            "channel",
+            "quality",
+            "elderly",
+            "care",
+            "referrals",
+            "stronger",
+            "parenting",
+            "kol"
+          ]
+        },
+        {
+          "item": "subscription monetization is still early despite strong stated interest in elderly care",
+          "matched": true,
+          "matched_keywords": [
+            "subscription",
+            "monetization",
+            "early",
+            "strong",
+            "stated",
+            "interest",
+            "elderly",
+            "care"
+          ]
+        },
+        {
+          "item": "hardware margin is much weaker under current pilot costs",
+          "matched": true,
+          "matched_keywords": [
+            "hardware",
+            "margin",
+            "much",
+            "weaker",
+            "under",
+            "current",
+            "pilot",
+            "costs"
+          ]
+        },
+        {
+          "item": "warranty reserve appears understated versus pilot experience",
+          "matched": true,
+          "matched_keywords": [
+            "warranty",
+            "reserve",
+            "appears",
+            "versus",
+            "pilot",
+            "experience"
+          ]
+        },
+        {
+          "item": "mass production yield ramp is aggressive relative to pilot yield",
+          "matched": true,
+          "matched_keywords": [
+            "mass",
+            "production",
+            "yield",
+            "ramp",
+            "aggressive",
+            "relative",
+            "pilot"
+          ]
+        },
+        {
+          "item": "battery certification/tooling/reliability testing create launch timing risk",
+          "matched": true,
+          "matched_keywords": [
+            "battery",
+            "certification",
+            "tooling",
+            "reliability",
+            "testing",
+            "create",
+            "launch",
+            "risk"
+          ]
+        },
+        {
+          "item": "AI differentiation may be limited by reliance on third-party model APIs",
+          "matched": true,
+          "matched_keywords": [
+            "differentiation",
+            "may",
+            "limited",
+            "reliance",
+            "third",
+            "party",
+            "model",
+            "apis"
+          ]
+        }
+      ]
+    },
+    "positive_signals": {
+      "label": "positive_signals",
+      "score": 100.0,
+      "matched": 7,
+      "total": 7,
+      "details": [
+        {
+          "item": "elderly care reminder use case shows the strongest retention and subscription interest",
+          "matched": true,
+          "matched_keywords": [
+            "elderly",
+            "care",
+            "reminder",
+            "use",
+            "case",
+            "shows",
+            "strongest",
+            "retention"
+          ]
+        },
+        {
+          "item": "demo-to-preorder conversion is still meaningful even after recalculation",
+          "matched": true,
+          "matched_keywords": [
+            "demo",
+            "preorder",
+            "conversion",
+            "meaningful",
+            "even",
+            "after"
+          ]
+        },
+        {
+          "item": "preorder deposits indicate some willingness to pay",
+          "matched": true,
+          "matched_keywords": [
+            "preorder",
+            "deposits",
+            "indicate",
+            "some",
+            "willingness",
+            "pay"
+          ]
+        },
+        {
+          "item": "elderly care partner referrals show low CAC and low cancellation",
+          "matched": true,
+          "matched_keywords": [
+            "elderly",
+            "care",
+            "partner",
+            "referrals",
+            "show",
+            "low",
+            "cac",
+            "cancellation"
+          ]
+        },
+        {
+          "item": "some households report reduced reminder burden for adult children",
+          "matched": true,
+          "matched_keywords": [
+            "some",
+            "households",
+            "report",
+            "reduced",
+            "reminder",
+            "burden"
+          ]
+        },
+        {
+          "item": "physical presence may create more engagement than phone alarms for elderly care",
+          "matched": true,
+          "matched_keywords": [
+            "physical",
+            "presence",
+            "may",
+            "create",
+            "more",
+            "engagement",
+            "phone",
+            "alarms"
+          ]
+        },
+        {
+          "item": "medication reminders, hydration reminders, and family check-ins show better success rates than child open-ended chat",
+          "matched": true,
+          "matched_keywords": [
+            "medication",
+            "reminders",
+            "hydration",
+            "family",
+            "check",
+            "ins",
+            "show",
+            "success"
+          ]
+        }
+      ]
+    }
+  },
+  "failure_tags": [],
+  "note": "This is a lightweight automated evaluator. It checks artifact presence, numeric/string evidence, and rough golden fact coverage. Investment judgment quality should still be reviewed with the task rubric or an LLM/human judge."
+}

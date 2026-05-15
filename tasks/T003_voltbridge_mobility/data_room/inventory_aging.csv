@@ -1,0 +1,6 @@
+region,inventory_value_usd,total_inventory_units,inventory_days,inventory_0_90_days_usd,inventory_91_180_days_usd,inventory_over_180_days_usd,over_180_days_pct,notes
+Europe,9400000,18300,156,4200000,2900000,2300000,24.5%,Prior-year commuter models and slow cargo e-bike SKUs
+Southeast_Asia,3800000,14200,104,2400000,950000,450000,11.8%,Entry-level models turn faster but discounts rising
+China_buffer_stock,2100000,6100,88,1500000,450000,150000,7.1%,Held for replacement units and distributor replenishment
+total,15300000,38600,137,8100000,4300000,2900000,19.0%,Management headline inventory days excludes China buffer stock
+

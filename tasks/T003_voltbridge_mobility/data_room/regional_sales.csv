@@ -1,0 +1,9 @@
+region,channel,2024_revenue_usd,2025_revenue_usd,2024_units,2025_units,2024_asp_usd,2025_asp_usd,2025_revenue_share,notes
+Europe,top_3_distributors,17200000,24100000,21500,32300,800,746,51.5%,Large volume commitments but longer payment terms
+Europe,other_distributors,5100000,6300000,6200,8800,823,716,13.5%,More discounting to clear prior models
+Europe,amazon_marketplace,2800000,4100000,3500,6000,800,683,8.8%,Higher returns and promotional pricing
+Europe,dtc_site,1200000,1700000,1350,2100,889,810,3.6%,Small but better customer data
+Southeast_Asia,retail_partners,3200000,7800000,6400,19500,500,400,16.7%,Fast growth but lower ASP entry-level models
+Southeast_Asia,marketplace,1500000,2900000,3300,8500,455,341,6.2%,Aggressive discounting and high logistics complexity
+total,total,31000000,46800000,42250,77200,734,606,100.0%,Management-provided total
+

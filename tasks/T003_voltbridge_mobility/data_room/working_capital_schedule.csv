@@ -1,0 +1,12 @@
+metric,2023,2024,2025,management_2026_plan,notes
+revenue_usd,20000000,31000000,46800000,72000000,Revenue plan from management presentation
+cogs_usd,14300000,21670000,34950500,52500000,2026 based on management plan
+accounts_receivable_usd,4100000,6900000,11800000,11400000,Management assumes better collection despite larger revenue base
+inventory_usd,6200000,9400000,15300000,16500000,Management assumes turns improve after 2026 selling season
+accounts_payable_usd,3500000,5800000,8600000,11200000,Supplier terms expected to expand
+dso_days,74.8,81.2,92.0,57.8,Year-end AR / revenue * 365
+dio_days,158.3,158.2,159.8,114.7,Year-end inventory / COGS * 365
+dpo_days,89.3,97.7,89.8,77.9,Year-end AP / COGS * 365
+cash_conversion_cycle_days,143.8,141.7,162.0,94.6,DSO + DIO - DPO using year-end balances
+cash_conversion_cycle_days_average_balance,not_available,111.4,126.7,not_available,Uses average AR inventory AP between current and prior year
+

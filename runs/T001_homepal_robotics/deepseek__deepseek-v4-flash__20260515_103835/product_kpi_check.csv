@@ -1,0 +1,16 @@
+metric,company_reported_value,recalculated_or_verified_value,status,note
+Demo-to-preorder conversion,34%,32.6% (weighted average of offline demo cohorts),verified,Management's claim is close but not exact; varies by cohort (19%–41%). Based on pilot_usage_metrics.csv.
+7-day active usage retention,Not explicitly stated (management refers to "core care cohorts" 30-day),73.8% (overall),needs_follow_up,Overall 7-day retention from pilot_usage_metrics.csv = 166/225 = 73.8%. Management's 30-day claim may use a subset.
+30-day active usage retention,"72% (core care cohorts)",50.7% (overall),inconsistent,Overall 30-day retention = 114/225 = 50.7%. Elderly care cohorts achieve 77.3% (58/75), but child and family segments drag down overall. Management's claim only applies to selected cohorts.
+Average daily interaction sessions,6.8,5.61 (overall weighted average),inconsistent,Computed from pilot_usage_metrics.csv: weighted average by activated households = 5.61. Even elderly+child average is 6.47, still below 6.8.
+Subscription interest by use case,Not claimed (preorder deposit only),Elderly care 64–69%, Child 19–22%, Family 12–14%,verified,From pilot_usage_metrics.csv subscription_interest_rate. Elderly care shows strongest interest.
+Feature-level usage quality,Not claimed,Medication reminder success 87.6%; Open-ended chat success 54.6% with high complaints,needs_follow_up,From feature_usage_breakdown.csv. Child interaction features have low success rates and high safety/complaint tickets.
+Net preorders after cancellation,272 (implied from 338 gross – 66 cancelled),272,verified,From commercialization_metrics.csv total row.
+Preorder deposit quality,$300 per gross preorder ($101,400 / 338),$300 per gross preorder,verified,From commercialization_metrics.csv. However, cancellation rate is 19.5%, and deposit refund policy not disclosed – risk.
+CAC per net preorder,$185,$180 (weighted average),verified,From commercialization_metrics.csv. Weighted average computed as $48930/272 = $180, close to $185.
+Hardware gross margin,39.3% (launch case),20.5% (current pilot cost),inconsistent,From bom_and_margin_table.csv. Management assumes volume discounts and reduced warranty reserve to reach 39.3%.
+BOM cost per unit,$788 (launch case),$1033 (current pilot cost),inconsistent,Current pilot cost is 31% higher than launch case target.
+Manufacturing yield assumption,"95% first-pass yield by month 4",86% first-pass yield in pilot,needs_follow_up,From manufacturing_plan.md. Pilot yield of 86% is below initial mass production assumption of 88%.
+Warranty / return cost assumption,3% of retail price ($39),8% of retail price ($104 based on pilot experience),inconsistent,From bom_and_margin_table.csv. Pilot warranty experience suggests significantly higher cost.
+Elderly care use-case engagement,High (qualitative),88% 7-day retention, 77% 30-day retention, 64–69% subscription interest,verified,From pilot_usage_metrics.csv and user_interview_notes.md. Strongest evidence of durable demand.
+Child interaction complaint rate,Not disclosed,40% of households filed at least one complaint; 22% return intent,needs_follow_up,From pilot_usage_metrics.csv and feature_usage_breakdown.csv. High complaint and safety ticket rates (8 safety tickets).

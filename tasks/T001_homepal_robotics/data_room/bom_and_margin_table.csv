@@ -1,0 +1,16 @@
+item,management_launch_case_usd,current_pilot_cost_usd,notes
+retail_price,1299,1299,Planned launch price.
+processor_and_compute_module,168,214,Management expects volume discount from supplier.
+camera_and_sensor_suite,96,118,Includes RGB camera depth sensor microphone array and proximity sensors.
+mobility_base_and_motors,112,138,Current pilot units had elevated motor replacement rate.
+battery_pack,74,82,UN38.3 certification still pending.
+display_and_speaker,65,71,Includes touch display and speaker system.
+plastic_enclosure_and_mechanical_parts,82,109,Tooling not finalized.
+assembly_and_test,58,91,Assumes move to higher-volume contract line.
+packaging_and_accessories,34,38,Includes charging dock.
+cloud_setup_and_device_activation,18,21,Initial provisioning cost only.
+freight_to_warehouse,42,47,Excludes last-mile fulfillment.
+warranty_reserve,39,104,Management launch case assumes 3% of retail price. Pilot experience implies about 8%.
+total_bom_and_direct_cost,788,1033,Management case excludes some pilot rework cost.
+gross_margin_pct,39.3%,20.5%,Calculated as (retail price - total cost) / retail price.
+

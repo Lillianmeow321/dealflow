@@ -1,0 +1,12 @@
+metric,company_reported_value,recalculated_or_verified_value,status,note
+Cost per episode before AI,6800,6800,verified,From cost_comparison.csv
+Cost per episode after AI,2450,2450,verified,From cost_comparison.csv
+Production cycle time before AI,14 days,14 days,verified,From cost_comparison.csv
+Production cycle time after AI,4.5 days,4.5 days,verified,From cost_comparison.csv
+Output volume increase,4.1x,4.11x (74/18),verified,From cost_comparison.csv
+Episode completion rate,49%,47.3% (11,128,000/23,520,000),inconsistent,From episode_performance.csv total
+Series continuation rate,,32% (3,556,000/11,128,000),needs_follow_up,Company overview mentions metric but no reported value; calculated from episode_performance.csv
+Paid conversion rate,11%,9.3% (166,685/1,798,000),inconsistent,From episode_performance.csv total
+Revenue per completed viewer,,$0.042 (466,718/11,128,000),needs_follow_up,Company overview does not report; calculated from total revenue and completions
+Platform concentration,High,71% on TikTok,verified,From platform_distribution_report.md
+Copyright/IP risk status,Not specified,Basic controls with open issues,needs_follow_up,From copyright_ip_memo.md

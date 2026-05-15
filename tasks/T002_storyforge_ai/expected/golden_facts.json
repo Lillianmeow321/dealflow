@@ -1,0 +1,124 @@
+{
+  "task_id": "T002_storyforge_ai",
+  "company": "StoryForge AI",
+  "recommended_answer_direction": "Hold",
+  "golden_facts": [
+    {
+      "id": "gf_001",
+      "category": "production_efficiency",
+      "fact": "AI-assisted production reduced cost per episode from $6800 to $2450, a 64.0% reduction.",
+      "source": "cost_comparison.csv; production_workflow.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_002",
+      "category": "production_efficiency",
+      "fact": "AI-assisted production reduced production cycle time from 14 days to 4.5 days, a 67.9% reduction, and increased monthly output from 18 to 74 episodes.",
+      "source": "cost_comparison.csv; production_workflow.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_003",
+      "category": "workflow_risk",
+      "fact": "The AI workflow also increases continuity error rate from 4% to 11%, revision rounds from 3.2 to 4.6, legal review hours from 2 to 7, and editor overtime from 6 to 18 hours per week.",
+      "source": "cost_comparison.csv; production_workflow.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_004",
+      "category": "content_performance",
+      "fact": "Aggregate episode completion rate is about 49.0%, consistent with management's reported 49%.",
+      "source": "episode_performance.csv; company_overview.md",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_005",
+      "category": "monetization",
+      "fact": "Management reports 11% paid conversion among engaged viewers, but episode data shows 166685 paid users from 1798000 engaged viewers, or about 9.3%.",
+      "source": "episode_performance.csv; company_overview.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_006",
+      "category": "monetization",
+      "fact": "Paid users are only about 1.5% of completed viewers, and paid unlock revenue per completed viewer is about $0.027.",
+      "source": "episode_performance.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_007",
+      "category": "hit_concentration",
+      "fact": "The top two series account for about 70.4% of total views and about 90.1% of paid users.",
+      "source": "episode_performance.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_008",
+      "category": "platform_dependency",
+      "fact": "TikTok accounts for 71% of total views, 68% of engaged viewers, and 63% of paid users in the last 90 days.",
+      "source": "platform_distribution_report.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_009",
+      "category": "platform_dependency",
+      "fact": "A TikTok recommendation change reduced average new-series first-week impressions by 37%.",
+      "source": "platform_distribution_report.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_010",
+      "category": "owned_distribution",
+      "fact": "The StoryForge app has the highest monetization share relative to its view share, but it is still small: 2% of views, 3% of engaged viewers, and 11% of paid users.",
+      "source": "platform_distribution_report.md",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_011",
+      "category": "paid_acquisition",
+      "fact": "Paid acquisition is unproven: CPI is $1.42, trial-to-paid conversion is 6.5%, day-7 app retention is 18%, and payback period is not yet proven.",
+      "source": "platform_distribution_report.md",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_012",
+      "category": "ip_risk",
+      "fact": "Asset provenance is not consistently tracked at the panel level, and StoryForge has received two platform notices requesting clarification on character similarity.",
+      "source": "copyright_ip_memo.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_013",
+      "category": "ip_risk",
+      "fact": "Outside counsel says risk is manageable for testing and early distribution, but not yet appropriate for large-scale IP licensing or adaptation without stronger clearance and provenance controls.",
+      "source": "copyright_ip_memo.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_014",
+      "category": "audience_quality",
+      "fact": "Audience comments praise hooks and cliffhangers, but repeatedly mention formulaic plots, inconsistent faces, weak endings, and AI-looking visual drift.",
+      "source": "audience_comments.md",
+      "importance": "medium"
+    }
+  ],
+  "must_identify_risks": [
+    "AI production efficiency is real but does not automatically prove durable content quality",
+    "paid conversion is lower than management's headline claim when recalculated from episode data",
+    "paid unlock revenue per completed viewer is low",
+    "views and paid users are concentrated in the top two series",
+    "TikTok platform concentration and algorithm dependency are material",
+    "owned app distribution is still too small to prove durable audience control",
+    "IP and asset provenance controls are not mature enough for large-scale licensing",
+    "audience comments show repetitive plots, weak endings, and visual continuity issues"
+  ],
+  "expected_positive_signals": [
+    "cost per episode and cycle time improvements are substantial",
+    "monthly output has increased more than 4x",
+    "top series show meaningful audience demand",
+    "the app has small but higher-intent monetization signal",
+    "human-in-the-loop workflow may preserve some editorial control"
+  ],
+  "expected_recommendation_rationale": "A strong answer should usually recommend Hold rather than Proceed because the AI workflow creates real production efficiency, but repeatable hit creation, paid conversion, owned distribution, and IP controls are not yet sufficiently de-risked."
+}
+

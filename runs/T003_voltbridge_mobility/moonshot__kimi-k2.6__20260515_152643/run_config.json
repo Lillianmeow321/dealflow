@@ -1,0 +1,21 @@
+{
+  "task": "T003_voltbridge_mobility",
+  "provider": "moonshot",
+  "model": "kimi-k2.6",
+  "temperature": 0.2,
+  "max_tokens": 10000,
+  "timeout": 1800,
+  "timestamp": "20260515_152643",
+  "required_files": [
+    "operating_kpi_check.csv",
+    "ic_investment_note.md",
+    "risk_log.md",
+    "management_follow_up_email.md"
+  ],
+  "parsed_artifacts": [
+    "ic_investment_note.md",
+    "management_follow_up_email.md",
+    "operating_kpi_check.csv",
+    "risk_log.md"
+  ]
+}

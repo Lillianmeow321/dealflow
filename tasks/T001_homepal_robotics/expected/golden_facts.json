@@ -1,0 +1,150 @@
+{
+  "task_id": "T001_homepal_robotics",
+  "company": "HomePal Robotics",
+  "recommended_answer_direction": "Hold",
+  "golden_facts": [
+    {
+      "id": "gf_001",
+      "category": "demand_signal",
+      "fact": "Management reports a 34% demo-to-preorder conversion, while raw cohort data shows 269 preorders from 820 demo attendees, or about 32.8%.",
+      "source": "pitch_deck_summary.md; pilot_usage_metrics.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_002",
+      "category": "retention",
+      "fact": "Management reports 72% 30-day retention in core care cohorts, but total raw data shows 114 30-day active households out of 243 pilot households, or about 46.9%.",
+      "source": "pitch_deck_summary.md; pilot_usage_metrics.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_003",
+      "category": "retention",
+      "fact": "The 72% retention claim is directionally supported only for elderly care cohorts: 58 of 80 elderly care pilot households remain active at day 30, or about 72.5%.",
+      "source": "pitch_deck_summary.md; pilot_usage_metrics.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_004",
+      "category": "use_case_quality",
+      "fact": "Elderly care is the strongest use case: it has about 72.5% day-30 retention, 64-69% subscription interest by cohort, and high reminder success in feature-level data.",
+      "source": "pilot_usage_metrics.csv; feature_usage_breakdown.csv; user_interview_notes.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_005",
+      "category": "use_case_risk",
+      "fact": "Child interaction shows novelty decay and safety concerns: day-30 retention is about 35.4%, complaint tickets equal 37.5% of child-interaction pilot households, and open-ended chat has the most safety tickets.",
+      "source": "pilot_usage_metrics.csv; feature_usage_breakdown.csv; user_interview_notes.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_006",
+      "category": "use_case_risk",
+      "fact": "Family assistant use is weak: day-30 retention is about 32.8%, subscription interest is only 12-14% by cohort, and user interviews mention smart speaker substitution.",
+      "source": "pilot_usage_metrics.csv; user_interview_notes.md; competitor_snapshot.md",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_007",
+      "category": "feature_quality",
+      "fact": "High event volume does not equal high-quality demand: child bedtime stories and open-ended chat generate many events, but child open-ended chat has 23 complaint tickets and 8 safety tickets.",
+      "source": "feature_usage_breakdown.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_008",
+      "category": "commercialization",
+      "fact": "Commercial demand quality varies by channel: the company has 338 gross preorders and $101,400 of deposits, but 66 cancellations reduce this to 272 net preorders.",
+      "source": "pitch_deck_summary.md; commercialization_metrics.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_009",
+      "category": "commercialization",
+      "fact": "Elderly care partner referrals appear to be the highest-quality channel, with only 6 cancellations on 78 gross preorders, $94 CAC per net preorder, and 61% subscription trial opt-in.",
+      "source": "commercialization_metrics.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_010",
+      "category": "commercialization",
+      "fact": "Parenting KOL and online ads are lower-quality channels: parenting KOL has 19 cancellations on 58 gross preorders and $265 CAC per net preorder, while online ads have 10 cancellations on 29 gross preorders and $310 CAC per net preorder.",
+      "source": "commercialization_metrics.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_011",
+      "category": "commercialization",
+      "fact": "Only 58 households have paid for extended pilot access or premium feature trials, so subscription revenue evidence is still early.",
+      "source": "pitch_deck_summary.md; commercialization_metrics.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_012",
+      "category": "margin",
+      "fact": "Management assumes a launch gross margin around 38-39%, but current pilot direct cost implies only about 20.5% gross margin at the same $1299 retail price.",
+      "source": "bom_and_margin_table.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_013",
+      "category": "warranty",
+      "fact": "Management assumes warranty reserve of $39 per unit, roughly 3% of retail price, while pilot experience implies $104 per unit, roughly 8%.",
+      "source": "bom_and_margin_table.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_014",
+      "category": "manufacturing",
+      "fact": "Pilot first-pass manufacturing yield is 86%, while management assumes 95% first-pass yield by month 4 of mass production.",
+      "source": "manufacturing_plan.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_015",
+      "category": "manufacturing",
+      "fact": "Final enclosure tooling, battery certification, drop testing, and long-duration motor reliability testing are not complete.",
+      "source": "manufacturing_plan.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_016",
+      "category": "differentiation",
+      "fact": "HomePal relies on third-party large language model APIs for open-ended conversation; its proprietary layer is household memory, routine orchestration, personality tuning, and multimodal interaction patterns.",
+      "source": "pitch_deck_summary.md; competitor_snapshot.md",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_017",
+      "category": "competition",
+      "fact": "Smart speakers and tablets are lower-cost substitutes for family assistant and child interaction jobs, while elderly care has a more focused competitor set.",
+      "source": "competitor_snapshot.md",
+      "importance": "medium"
+    }
+  ],
+  "must_identify_risks": [
+    "headline 30-day retention uses a favorable core-care cohort rather than total pilot households",
+    "child interaction has novelty decay, complaints, and safety/guardrail concerns",
+    "family assistant use case has weak subscription interest and strong substitute risk",
+    "high feature event volume does not necessarily indicate high-quality demand",
+    "gross preorders overstate demand because cancellations reduce net preorders",
+    "channel quality is uneven; elderly care referrals are stronger than parenting KOL or online ads",
+    "subscription monetization is still early despite strong stated interest in elderly care",
+    "hardware margin is much weaker under current pilot costs",
+    "warranty reserve appears understated versus pilot experience",
+    "mass production yield ramp is aggressive relative to pilot yield",
+    "battery certification/tooling/reliability testing create launch timing risk",
+    "AI differentiation may be limited by reliance on third-party model APIs"
+  ],
+  "expected_positive_signals": [
+    "elderly care reminder use case shows the strongest retention and subscription interest",
+    "demo-to-preorder conversion is still meaningful even after recalculation",
+    "preorder deposits indicate some willingness to pay",
+    "elderly care partner referrals show low CAC and low cancellation",
+    "some households report reduced reminder burden for adult children",
+    "physical presence may create more engagement than phone alarms for elderly care",
+    "medication reminders, hydration reminders, and family check-ins show better success rates than child open-ended chat"
+  ],
+  "expected_recommendation_rationale": "A strong answer should usually recommend Hold rather than Proceed because the elderly care wedge is promising, but total retention, child safety, current hardware margin, warranty cost, manufacturing readiness, and AI differentiation are not yet sufficiently de-risked for leading the round."
+}

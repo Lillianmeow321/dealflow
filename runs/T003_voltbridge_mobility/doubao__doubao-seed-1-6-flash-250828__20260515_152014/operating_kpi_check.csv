@@ -1,0 +1,19 @@
+metric,management_reported_value,recalculated_or_verified_value,status,note
+Revenue growth by region (Europe),37.6%,37.6%,verified,2024:26.3M;2025:36.2M, (36.2-26.3)/26.3=37.6%
+Revenue growth by region (Southeast Asia),127.7%,127.7%,verified,2024:4.7M;2025:10.7M, (10.7-4.7)/4.7=127.7%
+Gross margin by channel (Europe - top 3 distributors),29.0%,29.0%,verified,From gross_margin_by_channel.csv
+Gross margin by channel (Europe - other distributors),25.5%,25.5%,verified,From gross_margin_by_channel.csv
+Gross margin by channel (Europe - Amazon marketplace),21.0%,21.0%,verified,From gross_margin_by_channel.csv
+Gross margin by channel (Europe - DTC site),32.0%,32.0%,verified,From gross_margin_by_channel.csv
+Gross margin by channel (SEA - retail partners),18.5%,18.5%,verified,From gross_margin_by_channel.csv
+Gross margin by channel (SEA - marketplace),14.0%,14.0%,verified,From gross_margin_by_channel.csv
+EBITDA / adjusted EBITDA quality,1.1M,1.1M (adjusted),needs_follow_up,Adjusted EBITDA depends on questionable add-backs (e.g., inventory markdowns, incremental warranty)
+Europe distributor concentration,66.6%,66.6%,verified,Top 3 distributors: 29.3%+21.6%+15.7%=66.6% (distributor_contracts_summary.md)
+Southeast Asia ASP trend,Decreasing,Decreasing,verified,Retail: $500→$400; Marketplace: $455→$341 (regional_sales.csv)
+Inventory days,137,137,verified,From inventory_aging.csv (total, excludes China buffer stock)
+Inventory aging over 180 days,19.0%,19.0%,verified,From inventory_aging.csv (total over-180 days pct)
+Warranty cost as % of revenue,3.2%,4.0%,inconsistent,Management reports 3.2% (excludes pending claims); actual 1.869M / 46.8M=4.0% (warranty_and_returns.csv)
+Return rate by region,6.1%,6.1%,verified,From warranty_and_returns.csv (total return rate)
+Cash conversion cycle,162 days,162 days,verified,From working_capital_schedule.csv (2025)
+Operating cash flow,-9.8M,-9.8M,verified,From cash_flow_statement.csv (net cash from operating activities)
+Regulatory / tariff exposure,Low,Not fully mitigated,needs_follow_up,CE/EN15194 documentation pending for cargo models; EU anti-dumping scrutiny risk (regulatory_tariff_memo.md)

@@ -1,0 +1,16 @@
+{
+  "task": "T001_homepal_robotics",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "temperature": 0.2,
+  "max_tokens": 6000,
+  "timeout": 900,
+  "timestamp": "20260515_113804",
+  "required_files": [
+    "product_kpi_check.csv",
+    "investment_memo.md",
+    "risk_log.md",
+    "founder_follow_up_email.md"
+  ],
+  "parsed_artifacts": []
+}

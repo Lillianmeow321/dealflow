@@ -1,0 +1,11 @@
+customer_or_channel,region,2025_revenue_usd,accounts_receivable_usd,current_usd,days_31_60_usd,days_61_90_usd,days_over_90_usd,dispute_or_hold_reason,notes
+NordBike GmbH,Europe,10600000,3600000,900000,850000,950000,900000,Requesting extended payment terms and sell-through support,Largest distributor
+VeloMaison SARL,Europe,7800000,2300000,650000,550000,700000,400000,Rebate dispute tied to annual volume target,France Benelux distributor
+Nordic Motion AB,Europe,5700000,1900000,500000,420000,580000,400000,Withholding partial payment pending motor controller warranty claims,Scandinavia distributor
+Other Europe distributors,Europe,12100000,2100000,900000,650000,350000,200000,Normal seasonal receivables,Smaller accounts
+Amazon marketplace,Europe,4100000,500000,300000,120000,60000,20000,Marketplace settlement timing,Higher returns but faster cash cycle
+DTC site,Europe,1700000,100000,90000,10000,0,0,Card settlement timing,Small channel
+Southeast Asia retail partners,Southeast_Asia,7800000,1050000,450000,330000,190000,80000,Demo unit deductions and marketing allowance discussions,Fragmented partner base
+Southeast Asia marketplace,Southeast_Asia,2900000,250000,160000,60000,25000,5000,Marketplace settlement timing,Smaller receivable
+total,total,52600000,11800000,3950000,2990000,2855000,2005000,Total AR exceeds revenue table because customer rows include gross billings before credits,AR ties to balance_sheet.csv
+

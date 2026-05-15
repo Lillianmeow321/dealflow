@@ -1,0 +1,7 @@
+| Risk | Evidence from Data Room | Severity | Suggested Follow-Up |
+|------|-------------------------|----------|---------------------|
+| **Hardware Margin Shortfall** | Pilot BOM cost ($1,033) vs. management’s $788, 20.5% gross margin (pilot) vs. 39.3% (claimed). 8% warranty reserve (pilot) vs. 3% (claimed). | High | Verify BOM cost reduction plan and warranty cost mitigation strategies. |
+| **Manufacturing Execution Delays** | Pilot final yield 93% (vs. 95% target), pending UN38.3 battery certification, incomplete enclosure tooling, and lack of mobile robot manufacturing experience. | High | Audit contract manufacturer’s robot production experience and certification timelines. |
+| **Child Interaction Retention** | 30-day retention <40% (CI cohorts), 33% household complaints (open-ended answers, content repetition), 22% subscription opt-in (commercialization_metrics.csv). | High | Validate long-term engagement strategies and parental control improvements. |
+| **Family Assistant Substitution** | 2/5 households prefer smart speakers for calendar/reminder tasks, 25% usage rate (pilot). | Medium | Assess pricing strategy and unique value proposition for family use cases. |
+| **AI Differentiation Weakness** | Relies on third-party LLM APIs; no proprietary model differentiation. Competitors (Astro, ElliQ) offer similar functionality. | Medium | Review proprietary household memory layer development and data ownership strategy. |

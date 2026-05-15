@@ -1,0 +1,12 @@
+metric,company_reported_value,recalculated_or_verified_value,status,note
+Cost per episode before AI,6800,6800,verified,From cost_comparison.csv before_ai_workflow column
+Cost per episode after AI,2450,2450,verified,From cost_comparison.csv current_ai_workflow column
+Production cycle time before AI (days),14,14,verified,From cost_comparison.csv before_ai_workflow column
+Production cycle time after AI (days),4.5,4.5,verified,From cost_comparison.csv current_ai_workflow column
+Output volume increase (multiple),4.1x,4.11x,verified,From cost_comparison.csv: 74/18 = 4.11
+Episode completion rate,49%,47.3%,inconsistent,Recalculated from episode_performance.csv: 11,128,000 completions / 23,520,000 starts = 0.473; difference may be due to rounding or series subset
+Series continuation rate,not reported,not calculable,not_enough_data,No clear denominator; series_continuations (3,556,000) vs engaged viewers (1,798,000); definition unclear
+Paid conversion rate (engaged viewers),11%,9.27%,inconsistent,Recalculated: 166,685 paid users / 1,798,000 engaged viewers = 0.0927
+Revenue per completed viewer (USD),not reported,0.037,needs_follow_up,Total revenue ($410,833) / total completions (11,128,000) = $0.037; low figure suggests either definition mismatch or weak monetization
+Platform concentration (TikTok share of views),not reported,71%,verified,From platform_distribution_report.md; high dependency
+Copyright/IP risk status,not reported,high risk,needs_follow_up,From copyright_ip_memo.md: no chain-of-title, platform notices, incomplete contractor rights

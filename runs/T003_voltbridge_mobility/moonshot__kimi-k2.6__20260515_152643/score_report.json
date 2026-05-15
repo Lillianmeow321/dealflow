@@ -1,0 +1,878 @@
+{
+  "task": "T003_voltbridge_mobility",
+  "run_dir": "/Users/annikalee/Documents/New project/DealFlowBench-mini/runs/T003_voltbridge_mobility/moonshot__kimi-k2.6__20260515_152643",
+  "score": 88.75,
+  "score_components": {
+    "artifacts": {
+      "score": 100.0,
+      "present": [
+        "operating_kpi_check.csv",
+        "ic_investment_note.md",
+        "risk_log.md",
+        "management_follow_up_email.md"
+      ],
+      "missing": []
+    },
+    "calculations": {
+      "score": 62.5,
+      "matched": 15,
+      "total": 24,
+      "details": [
+        {
+          "metric": "Total revenue growth",
+          "expected_display": "51.0%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "verified"
+        },
+        {
+          "metric": "Blended ASP decline",
+          "expected_display": "-17.4%",
+          "matched": true,
+          "matched_evidence": [
+            "-17.4%"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Europe share of 2025 revenue",
+          "expected_display": "77.4%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "verified"
+        },
+        {
+          "metric": "Southeast Asia retail ASP decline",
+          "expected_display": "-20.0%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Southeast Asia marketplace ASP decline",
+          "expected_display": "-25.1%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Implied 2025 gross margin",
+          "expected_display": "25.3%",
+          "matched": true,
+          "matched_evidence": [
+            "25.3%"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Reported EBITDA margin",
+          "expected_display": "-3.9%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Adjusted EBITDA margin",
+          "expected_display": "2.4%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Adjusted EBITDA add-back total",
+          "expected_display": "$2.92M add-backs",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Questionable add-back share",
+          "expected_display": "74.7%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Operating cash flow margin",
+          "expected_display": "-20.9%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Accounts receivable growth",
+          "expected_display": "71.0%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Inventory growth",
+          "expected_display": "62.8%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Cash conversion cycle",
+          "expected_display": "126.7 days",
+          "matched": true,
+          "matched_evidence": [
+            "126.7 days",
+            "126.7"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Year-end cash conversion cycle",
+          "expected_display": "162.0 days",
+          "matched": true,
+          "matched_evidence": [
+            "162.0 days",
+            "162.0"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "AR over 90 days",
+          "expected_display": "17.0%",
+          "matched": true,
+          "matched_evidence": [
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Top three distributor AR concentration",
+          "expected_display": "66.1%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Total inventory days",
+          "expected_display": "137 days",
+          "matched": true,
+          "matched_evidence": [
+            "137 days",
+            "137"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Inventory over 180 days",
+          "expected_display": "19.0%",
+          "matched": true,
+          "matched_evidence": [
+            "19.0%",
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Europe inventory over 180 days",
+          "expected_display": "24.5%",
+          "matched": true,
+          "matched_evidence": [
+            "24.5%",
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Top three Europe distributor concentration - total company revenue",
+          "expected_display": "51.5%",
+          "matched": true,
+          "matched_evidence": [
+            "51.5%"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Top three Europe distributor concentration - Europe revenue",
+          "expected_display": "66.6%",
+          "matched": true,
+          "matched_evidence": [
+            "66.6%",
+            "0.7"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Warranty cost as percent of revenue",
+          "expected_display": "4.0%",
+          "matched": true,
+          "matched_evidence": [
+            "4.0%"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Europe Amazon return rate",
+          "expected_display": "9.4%",
+          "matched": true,
+          "matched_evidence": [
+            "9.4%",
+            "0.1"
+          ],
+          "status": "needs_follow_up"
+        }
+      ]
+    },
+    "golden_facts": {
+      "score": 100.0,
+      "matched": 23,
+      "total": 23,
+      "details": [
+        {
+          "id": "gf_001",
+          "category": "growth",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "2025",
+            "revenue",
+            "$46.8m",
+            "2024",
+            "year",
+            "over",
+            "growth"
+          ],
+          "fact": "2025 revenue reached $46.8M versus $31.0M in 2024, or about 51.0% year-over-year growth."
+        },
+        {
+          "id": "gf_002",
+          "category": "growth_quality",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "total",
+            "units",
+            "grew",
+            "revenue",
+            "blended",
+            "asp",
+            "declined",
+            "$734"
+          ],
+          "fact": "Total units grew much faster than revenue, and blended ASP declined from about $734 in 2024 to about $606 in 2025, a 17.4% decline."
+        },
+        {
+          "id": "gf_003",
+          "category": "regional_mix",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "europe",
+            "remains",
+            "2025",
+            "revenue",
+            "southeast",
+            "asia",
+            "growing",
+            "through"
+          ],
+          "fact": "Europe remains 77.4% of 2025 revenue, but Southeast Asia is growing through lower-ASP channels."
+        },
+        {
+          "id": "gf_004",
+          "category": "sea_quality",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "southeast",
+            "asia",
+            "retail",
+            "asp",
+            "declined",
+            "$500",
+            "$400",
+            "marketplace"
+          ],
+          "fact": "Southeast Asia retail ASP declined from $500 to $400, and Southeast Asia marketplace ASP declined from $455 to $341."
+        },
+        {
+          "id": "gf_005",
+          "category": "margin",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "blended",
+            "gross",
+            "margin",
+            "28.4%",
+            "channel",
+            "table"
+          ],
+          "fact": "Management reports blended gross margin of 28.4%, but the channel gross margin table implies about 25.3% gross margin for 2025."
+        },
+        {
+          "id": "gf_006",
+          "category": "earnings_quality",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "positive",
+            "adjusted",
+            "ebitda",
+            "$1.1m",
+            "income",
+            "statement"
+          ],
+          "fact": "Management reports positive adjusted EBITDA of $1.1M, but the income statement shows reported EBITDA of -$1.82M and net income of -$3.00M in 2025."
+        },
+        {
+          "id": "gf_007",
+          "category": "earnings_quality",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "adjusted",
+            "ebitda",
+            "bridge",
+            "back",
+            "add",
+            "backs",
+            "questionable",
+            "launch"
+          ],
+          "fact": "The adjusted EBITDA bridge adds back $2.92M, and about $2.18M of the add-backs are questionable launch marketing, incremental warranty, or inventory markdown add-backs."
+        },
+        {
+          "id": "gf_008",
+          "category": "cash_flow",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "operating",
+            "cash",
+            "flow",
+            "$9.8m",
+            "2025",
+            "despite",
+            "revenue",
+            "growth"
+          ],
+          "fact": "Operating cash flow deteriorated to -$9.8M in 2025 despite revenue growth, driven by accounts receivable and inventory build."
+        },
+        {
+          "id": "gf_009",
+          "category": "working_capital",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "receivable",
+            "grew",
+            "inventory",
+            "2024",
+            "2025",
+            "revenue",
+            "growth"
+          ],
+          "fact": "Accounts receivable grew 71.0% and inventory grew 62.8% from 2024 to 2025, both faster than revenue growth of about 51.0%."
+        },
+        {
+          "id": "gf_010",
+          "category": "working_capital",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "using",
+            "average",
+            "2024",
+            "2025",
+            "balances",
+            "cash",
+            "conversion",
+            "cycle"
+          ],
+          "fact": "Using average 2024/2025 balances, 2025 cash conversion cycle is about 126.7 days, above management's reported 95 days."
+        },
+        {
+          "id": "gf_011",
+          "category": "working_capital",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "working",
+            "capital",
+            "schedule",
+            "shows",
+            "year",
+            "end",
+            "cash",
+            "conversion"
+          ],
+          "fact": "The working capital schedule shows year-end cash conversion cycle worsening to 162.0 days in 2025, while management's 2026 plan assumes improvement to 94.6 days."
+        },
+        {
+          "id": "gf_012",
+          "category": "receivables",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "aging",
+            "shows",
+            "receivable",
+            "over",
+            "days",
+            "top",
+            "three",
+            "european"
+          ],
+          "fact": "AR aging shows 17.0% of accounts receivable is over 90 days, and the top three European distributors represent about 66.1% of AR."
+        },
+        {
+          "id": "gf_013",
+          "category": "receivables",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "nordbike",
+            "velomaison",
+            "nordic",
+            "motion",
+            "have",
+            "payment",
+            "issues",
+            "tied"
+          ],
+          "fact": "NordBike, VeloMaison, and Nordic Motion have payment issues tied to extended terms, rebate disputes, or warranty claims."
+        },
+        {
+          "id": "gf_014",
+          "category": "margin_mix",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "lowest",
+            "margin",
+            "channels",
+            "southeast",
+            "asia",
+            "marketplace",
+            "14.0%",
+            "retail"
+          ],
+          "fact": "The lowest-margin channels are Southeast Asia marketplace at 14.0% and Southeast Asia retail partners at 18.5%, while Amazon marketplace is also pressured at 21.0%."
+        },
+        {
+          "id": "gf_015",
+          "category": "inventory",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "inventory",
+            "days",
+            "118",
+            "total",
+            "aging",
+            "data"
+          ],
+          "fact": "Management reports inventory days of 118, but total inventory aging data shows 137 inventory days when China buffer stock is included."
+        },
+        {
+          "id": "gf_016",
+          "category": "inventory",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "total",
+            "inventory",
+            "over",
+            "180",
+            "days",
+            "$2.9m",
+            "out",
+            "19.0%"
+          ],
+          "fact": "Total inventory over 180 days is $2.9M out of $15.3M, or about 19.0%; Europe is worse at 24.5% over 180 days."
+        },
+        {
+          "id": "gf_017",
+          "category": "concentration",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "top",
+            "three",
+            "european",
+            "distributors",
+            "represent",
+            "66.6%",
+            "europe",
+            "revenue"
+          ],
+          "fact": "Top three European distributors represent 66.6% of Europe revenue and 51.5% of total company revenue."
+        },
+        {
+          "id": "gf_018",
+          "category": "working_capital",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "european",
+            "distributors",
+            "have",
+            "day",
+            "payment",
+            "terms",
+            "nordbike",
+            "extended"
+          ],
+          "fact": "Major European distributors have 75-90 day payment terms, and NordBike requested extended payment terms for 2026."
+        },
+        {
+          "id": "gf_019",
+          "category": "warranty",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "warranty",
+            "cost",
+            "3.2%",
+            "revenue",
+            "returns",
+            "csv"
+          ],
+          "fact": "Management reports warranty cost of 3.2% of revenue, but warranty_and_returns.csv shows total warranty cost of $1.869M on $46.8M revenue, or about 4.0%."
+        },
+        {
+          "id": "gf_020",
+          "category": "returns",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "return",
+            "rate",
+            "highest",
+            "europe",
+            "amazon",
+            "marketplace",
+            "9.4%",
+            "top"
+          ],
+          "fact": "Return rate is highest in Europe Amazon marketplace at 9.4%, and Europe top distributors also show elevated return rate at 6.8%."
+        },
+        {
+          "id": "gf_021",
+          "category": "warranty",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "battery",
+            "related",
+            "claims",
+            "total",
+            "1525",
+            "motor",
+            "controller",
+            "988"
+          ],
+          "fact": "Battery-related claims total 1525 and motor-controller claims total 988 in 2025, with European top distributors showing winter motor controller issues and battery range complaints."
+        },
+        {
+          "id": "gf_022",
+          "category": "regulatory",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "2025",
+            "cargo",
+            "model",
+            "two",
+            "battery",
+            "pack",
+            "require",
+            "updated"
+          ],
+          "fact": "The 2025 cargo model and two battery pack variants require updated technical files before broad European distribution."
+        },
+        {
+          "id": "gf_023",
+          "category": "regulatory",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "counsel",
+            "compliance",
+            "risk",
+            "manageable",
+            "fully",
+            "reflected",
+            "operating",
+            "plan"
+          ],
+          "fact": "Counsel says compliance risk is manageable but not fully reflected in the operating plan, including potential battery transport cost of 1.2-1.8 percentage points of revenue."
+        }
+      ]
+    },
+    "required_risks": {
+      "label": "risks",
+      "score": 100.0,
+      "matched": 14,
+      "total": 14,
+      "details": [
+        {
+          "item": "headline revenue growth masks ASP decline and lower-quality channel mix",
+          "matched": true,
+          "matched_keywords": [
+            "headline",
+            "revenue",
+            "growth",
+            "masks",
+            "asp",
+            "decline",
+            "lower",
+            "quality"
+          ]
+        },
+        {
+          "item": "blended gross margin appears lower than management's reported 28.4%",
+          "matched": true,
+          "matched_keywords": [
+            "blended",
+            "gross",
+            "margin",
+            "appears",
+            "lower",
+            "management",
+            "reported",
+            "28.4%"
+          ]
+        },
+        {
+          "item": "Southeast Asia growth is lower ASP and lower margin",
+          "matched": true,
+          "matched_keywords": [
+            "southeast",
+            "asia",
+            "growth",
+            "lower",
+            "asp",
+            "margin"
+          ]
+        },
+        {
+          "item": "reported EBITDA and operating cash flow are negative despite positive adjusted EBITDA",
+          "matched": true,
+          "matched_keywords": [
+            "reported",
+            "ebitda",
+            "operating",
+            "cash",
+            "flow",
+            "negative",
+            "despite",
+            "positive"
+          ]
+        },
+        {
+          "item": "adjusted EBITDA relies on low-quality add-backs such as launch marketing, warranty, and inventory markdowns",
+          "matched": true,
+          "matched_keywords": [
+            "adjusted",
+            "ebitda",
+            "relies",
+            "low",
+            "quality",
+            "add",
+            "backs",
+            "launch"
+          ]
+        },
+        {
+          "item": "accounts receivable and inventory are growing faster than revenue",
+          "matched": true,
+          "matched_keywords": [
+            "receivable",
+            "inventory",
+            "growing",
+            "revenue"
+          ]
+        },
+        {
+          "item": "cash conversion cycle is worse than management's reported 95 days",
+          "matched": true,
+          "matched_keywords": [
+            "cash",
+            "conversion",
+            "cycle",
+            "worse",
+            "management",
+            "reported",
+            "days"
+          ]
+        },
+        {
+          "item": "AR aging shows concentration and overdue balances among top distributors",
+          "matched": true,
+          "matched_keywords": [
+            "aging",
+            "shows",
+            "concentration",
+            "balances",
+            "top",
+            "distributors"
+          ]
+        },
+        {
+          "item": "Europe distributor concentration is high",
+          "matched": true,
+          "matched_keywords": [
+            "europe",
+            "distributor",
+            "concentration",
+            "high"
+          ]
+        },
+        {
+          "item": "inventory days and aged inventory are worse than management's headline",
+          "matched": true,
+          "matched_keywords": [
+            "inventory",
+            "days",
+            "aged",
+            "worse",
+            "management",
+            "headline"
+          ]
+        },
+        {
+          "item": "warranty cost is higher than management's reported 3.2%",
+          "matched": true,
+          "matched_keywords": [
+            "warranty",
+            "cost",
+            "higher",
+            "management",
+            "reported",
+            "3.2%"
+          ]
+        },
+        {
+          "item": "Europe Amazon and top distributors show elevated return or warranty issues",
+          "matched": true,
+          "matched_keywords": [
+            "europe",
+            "amazon",
+            "top",
+            "distributors",
+            "show",
+            "elevated",
+            "return",
+            "warranty"
+          ]
+        },
+        {
+          "item": "regulatory and battery transport costs are not fully reflected in the operating plan",
+          "matched": true,
+          "matched_keywords": [
+            "regulatory",
+            "battery",
+            "transport",
+            "costs",
+            "fully",
+            "reflected",
+            "operating",
+            "plan"
+          ]
+        },
+        {
+          "item": "working capital pressure may increase due to inventory build and distributor payment terms",
+          "matched": true,
+          "matched_keywords": [
+            "working",
+            "capital",
+            "pressure",
+            "may",
+            "increase",
+            "inventory",
+            "build",
+            "distributor"
+          ]
+        }
+      ]
+    },
+    "positive_signals": {
+      "label": "positive_signals",
+      "score": 100.0,
+      "matched": 5,
+      "total": 5,
+      "details": [
+        {
+          "item": "revenue growth is strong at about 51%",
+          "matched": true,
+          "matched_keywords": [
+            "revenue",
+            "growth",
+            "51%"
+          ]
+        },
+        {
+          "item": "Europe remains a large revenue base",
+          "matched": true,
+          "matched_keywords": [
+            "europe",
+            "remains",
+            "large",
+            "revenue",
+            "base"
+          ]
+        },
+        {
+          "item": "DTC has better gross margin and customer data, although it is small",
+          "matched": true,
+          "matched_keywords": [
+            "dtc",
+            "has",
+            "better",
+            "gross",
+            "margin",
+            "customer",
+            "data",
+            "small"
+          ]
+        },
+        {
+          "item": "Southeast Asia has meaningful volume growth",
+          "matched": true,
+          "matched_keywords": [
+            "southeast",
+            "asia",
+            "has",
+            "volume",
+            "growth"
+          ]
+        },
+        {
+          "item": "compliance risk is described as manageable if documentation and budget are improved",
+          "matched": true,
+          "matched_keywords": [
+            "compliance",
+            "risk",
+            "manageable",
+            "documentation",
+            "budget"
+          ]
+        }
+      ]
+    }
+  },
+  "failure_tags": [],
+  "note": "This is a lightweight automated evaluator. It checks artifact presence, numeric/string evidence, and rough golden fact coverage. Investment judgment quality should still be reviewed with the task rubric or an LLM/human judge."
+}

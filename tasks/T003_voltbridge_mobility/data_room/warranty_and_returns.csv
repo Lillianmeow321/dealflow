@@ -1,0 +1,9 @@
+region,channel,2025_revenue_usd,units_sold,return_rate,warranty_cost_usd,warranty_cost_pct_of_revenue,battery_related_claims,motor_controller_claims,notes
+Europe,top_3_distributors,24100000,32300,6.8%,1012200,4.2%,820,610,Winter motor controller issues and battery range complaints
+Europe,other_distributors,6300000,8800,5.9%,252000,4.0%,190,135,Older models have elevated return requests
+Europe,amazon_marketplace,4100000,6000,9.4%,225500,5.5%,165,92,Higher buyer remorse and shipping damage
+Europe,dtc_site,1700000,2100,4.7%,59500,3.5%,44,31,Better support data but small channel
+Southeast_Asia,retail_partners,7800000,19500,3.8%,218400,2.8%,210,78,Lower ASP models simpler but service network thin
+Southeast_Asia,marketplace,2900000,8500,5.6%,101500,3.5%,96,42,Logistics and assembly issues
+total,total,46800000,77200,6.1%,1869100,4.0%,1525,988,Management presentation cites 3.2% warranty cost excluding pending distributor claims
+

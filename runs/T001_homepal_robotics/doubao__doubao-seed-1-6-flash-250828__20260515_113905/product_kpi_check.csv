@@ -1,0 +1,16 @@
+metric,company_reported_value,recalculated_or_verified_value,status,note
+Demo-to-preorder conversion,34%,32.8% (269/820),verified,Calculated from pilot_usage_metrics.csv cohorts
+7-day active usage retention,72%,85.9% (average of elderly cohorts: 92.1%, 88.6%),inconsistent,Company reported 72% vs. 85-90% in elderly care cohorts
+30-day active usage retention,72%,59.7% (average of elderly cohorts: 81.6%, 77.1%),inconsistent,Company reported 72% vs. 77-82% in elderly care cohorts
+Average daily interaction sessions,6.8,6.8 (child interaction cohorts: 7.1, 6.6),verified,Pitch deck summary and child interaction pilot data
+Subscription interest by use case,61% (elderly care),61% (partner referrals),verified,From commercialization_metrics.csv channel data
+Feature-level usage quality,High,87.6% (medication reminder),verified,From feature_usage_breakdown.csv
+Net preorders after cancellation,272,272,verified,From commercialization_metrics.csv
+Preorder deposit quality,$300,$300,verified,From commercialization_metrics.csv "avg_deposit_per_gross_preorder"
+CAC per net preorder,$185,$185,verified,From commercialization_metrics.csv
+Hardware gross margin,39.3%,20.5% (pilot),inconsistent,From bom_and_margin_table.csv
+BOM cost per unit,$788,$1033 (pilot),inconsistent,From bom_and_margin_table.csv
+Manufacturing yield assumption,95%,93% (pilot final yield),needs_follow_up,From manufacturing_plan.md (pilot yield 93% vs. 95% target)
+Warranty / return cost assumption,3% of retail price,8% of retail price (pilot),inconsistent,From bom_and_margin_table.csv
+Elderly care use-case engagement,High,80%+ (30-day retention),verified,From user_interview_notes.md and pilot_usage_metrics.csv
+Child interaction complaint rate,Low,23/10,6200 events (0.29%),needs_follow_up,From feature_usage_breakdown.csv and user_interview_notes.md

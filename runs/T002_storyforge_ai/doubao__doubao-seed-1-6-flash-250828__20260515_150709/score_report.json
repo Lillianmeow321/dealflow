@@ -1,0 +1,550 @@
+{
+  "task": "T002_storyforge_ai",
+  "run_dir": "/Users/annikalee/Documents/New project/DealFlowBench-mini/runs/T002_storyforge_ai/doubao__doubao-seed-1-6-flash-250828__20260515_150709",
+  "score": 95.0,
+  "score_components": {
+    "artifacts": {
+      "score": 100.0,
+      "present": [
+        "content_kpi_check.csv",
+        "investment_memo.md",
+        "risk_log.md",
+        "founder_follow_up_email.md"
+      ],
+      "missing": []
+    },
+    "calculations": {
+      "score": 83.33,
+      "matched": 10,
+      "total": 12,
+      "details": [
+        {
+          "metric": "Cost per episode reduction",
+          "expected_display": "64.0%",
+          "matched": true,
+          "matched_evidence": [
+            "0.6"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "Production cycle time reduction",
+          "expected_display": "67.9%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "Output volume increase",
+          "expected_display": "4.1x",
+          "matched": true,
+          "matched_evidence": [
+            "4.1x",
+            "4.1",
+            "4.11"
+          ],
+          "status": "verified"
+        },
+        {
+          "metric": "Aggregate episode completion rate",
+          "expected_display": "49.0%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "verified"
+        },
+        {
+          "metric": "Series continuation rate from completed viewers",
+          "expected_display": "32.2%",
+          "matched": false,
+          "matched_evidence": [],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Series continuation rate from episode starts",
+          "expected_display": "15.8%",
+          "matched": true,
+          "matched_evidence": [
+            "0.2"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Paid conversion among engaged viewers",
+          "expected_display": "9.3%",
+          "matched": true,
+          "matched_evidence": [
+            "9.3%",
+            "9.27%"
+          ],
+          "status": "inconsistent"
+        },
+        {
+          "metric": "Paid conversion among completed viewers",
+          "expected_display": "1.5%",
+          "matched": true,
+          "matched_evidence": [
+            "0.0"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Revenue per completed viewer",
+          "expected_display": "$0.027 per completed viewer",
+          "matched": true,
+          "matched_evidence": [
+            "2.7%",
+            "0.0"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Top two series view concentration",
+          "expected_display": "70.4%",
+          "matched": true,
+          "matched_evidence": [
+            "0.7"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "Top two series paid user concentration",
+          "expected_display": "90.1%",
+          "matched": true,
+          "matched_evidence": [
+            "0.9"
+          ],
+          "status": "needs_follow_up"
+        },
+        {
+          "metric": "TikTok platform concentration",
+          "expected_display": "71% of total views",
+          "matched": true,
+          "matched_evidence": [
+            "71% of total views",
+            "0.7"
+          ],
+          "status": "needs_follow_up"
+        }
+      ]
+    },
+    "golden_facts": {
+      "score": 100.0,
+      "matched": 14,
+      "total": 14,
+      "details": [
+        {
+          "id": "gf_001",
+          "category": "production_efficiency",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "production",
+            "cost",
+            "per",
+            "episode",
+            "$6800",
+            "$2450",
+            "reduction"
+          ],
+          "fact": "AI-assisted production reduced cost per episode from $6800 to $2450, a 64.0% reduction."
+        },
+        {
+          "id": "gf_002",
+          "category": "production_efficiency",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "production",
+            "cycle",
+            "time",
+            "days",
+            "4.5",
+            "reduction",
+            "increased",
+            "monthly"
+          ],
+          "fact": "AI-assisted production reduced production cycle time from 14 days to 4.5 days, a 67.9% reduction, and increased monthly output from 18 to 74 episodes."
+        },
+        {
+          "id": "gf_003",
+          "category": "workflow_risk",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "workflow",
+            "also",
+            "continuity",
+            "error",
+            "rate",
+            "11%",
+            "legal",
+            "review"
+          ],
+          "fact": "The AI workflow also increases continuity error rate from 4% to 11%, revision rounds from 3.2 to 4.6, legal review hours from 2 to 7, and editor overtime from 6 to 18 hours per week."
+        },
+        {
+          "id": "gf_004",
+          "category": "content_performance",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "episode",
+            "completion",
+            "rate",
+            "consistent",
+            "management",
+            "reported",
+            "49%"
+          ],
+          "fact": "Aggregate episode completion rate is about 49.0%, consistent with management's reported 49%."
+        },
+        {
+          "id": "gf_005",
+          "category": "monetization",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "management",
+            "reports",
+            "11%",
+            "paid",
+            "conversion",
+            "among",
+            "engaged",
+            "viewers"
+          ],
+          "fact": "Management reports 11% paid conversion among engaged viewers, but episode data shows 166685 paid users from 1798000 engaged viewers, or about 9.3%."
+        },
+        {
+          "id": "gf_006",
+          "category": "monetization",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "paid",
+            "users",
+            "only",
+            "completed",
+            "viewers",
+            "unlock",
+            "revenue",
+            "per"
+          ],
+          "fact": "Paid users are only about 1.5% of completed viewers, and paid unlock revenue per completed viewer is about $0.027."
+        },
+        {
+          "id": "gf_007",
+          "category": "hit_concentration",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "top",
+            "two",
+            "series",
+            "total",
+            "views",
+            "paid",
+            "users"
+          ],
+          "fact": "The top two series account for about 70.4% of total views and about 90.1% of paid users."
+        },
+        {
+          "id": "gf_008",
+          "category": "platform_dependency",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "tiktok",
+            "71%",
+            "total",
+            "views",
+            "68%",
+            "engaged",
+            "viewers",
+            "paid"
+          ],
+          "fact": "TikTok accounts for 71% of total views, 68% of engaged viewers, and 63% of paid users in the last 90 days."
+        },
+        {
+          "id": "gf_009",
+          "category": "platform_dependency",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "tiktok",
+            "recommendation",
+            "change",
+            "average",
+            "series",
+            "first",
+            "week"
+          ],
+          "fact": "A TikTok recommendation change reduced average new-series first-week impressions by 37%."
+        },
+        {
+          "id": "gf_010",
+          "category": "owned_distribution",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "storyforge",
+            "app",
+            "has",
+            "monetization",
+            "share",
+            "its",
+            "view",
+            "views"
+          ],
+          "fact": "The StoryForge app has the highest monetization share relative to its view share, but it is still small: 2% of views, 3% of engaged viewers, and 11% of paid users."
+        },
+        {
+          "id": "gf_011",
+          "category": "paid_acquisition",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "paid",
+            "acquisition",
+            "conversion",
+            "day",
+            "app",
+            "18%",
+            "period",
+            "proven"
+          ],
+          "fact": "Paid acquisition is unproven: CPI is $1.42, trial-to-paid conversion is 6.5%, day-7 app retention is 18%, and payback period is not yet proven."
+        },
+        {
+          "id": "gf_012",
+          "category": "ip_risk",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "asset",
+            "provenance",
+            "panel",
+            "level",
+            "storyforge",
+            "has",
+            "two",
+            "platform"
+          ],
+          "fact": "Asset provenance is not consistently tracked at the panel level, and StoryForge has received two platform notices requesting clarification on character similarity."
+        },
+        {
+          "id": "gf_013",
+          "category": "ip_risk",
+          "importance": "high",
+          "matched": true,
+          "matched_keywords": [
+            "counsel",
+            "says",
+            "risk",
+            "manageable",
+            "testing",
+            "early",
+            "distribution",
+            "appropriate"
+          ],
+          "fact": "Outside counsel says risk is manageable for testing and early distribution, but not yet appropriate for large-scale IP licensing or adaptation without stronger clearance and provenance controls."
+        },
+        {
+          "id": "gf_014",
+          "category": "audience_quality",
+          "importance": "medium",
+          "matched": true,
+          "matched_keywords": [
+            "audience",
+            "comments",
+            "hooks",
+            "cliffhangers",
+            "mention",
+            "formulaic",
+            "plots",
+            "inconsistent"
+          ],
+          "fact": "Audience comments praise hooks and cliffhangers, but repeatedly mention formulaic plots, inconsistent faces, weak endings, and AI-looking visual drift."
+        }
+      ]
+    },
+    "required_risks": {
+      "label": "risks",
+      "score": 100.0,
+      "matched": 8,
+      "total": 8,
+      "details": [
+        {
+          "item": "AI production efficiency is real but does not automatically prove durable content quality",
+          "matched": true,
+          "matched_keywords": [
+            "production",
+            "efficiency",
+            "real",
+            "does",
+            "prove",
+            "durable",
+            "content",
+            "quality"
+          ]
+        },
+        {
+          "item": "paid conversion is lower than management's headline claim when recalculated from episode data",
+          "matched": true,
+          "matched_keywords": [
+            "paid",
+            "conversion",
+            "lower",
+            "management",
+            "claim",
+            "when",
+            "recalculated",
+            "episode"
+          ]
+        },
+        {
+          "item": "paid unlock revenue per completed viewer is low",
+          "matched": true,
+          "matched_keywords": [
+            "paid",
+            "unlock",
+            "revenue",
+            "per",
+            "completed",
+            "viewer",
+            "low"
+          ]
+        },
+        {
+          "item": "views and paid users are concentrated in the top two series",
+          "matched": true,
+          "matched_keywords": [
+            "views",
+            "paid",
+            "users",
+            "top",
+            "two",
+            "series"
+          ]
+        },
+        {
+          "item": "TikTok platform concentration and algorithm dependency are material",
+          "matched": true,
+          "matched_keywords": [
+            "tiktok",
+            "platform",
+            "concentration",
+            "algorithm",
+            "dependency",
+            "material"
+          ]
+        },
+        {
+          "item": "owned app distribution is still too small to prove durable audience control",
+          "matched": true,
+          "matched_keywords": [
+            "app",
+            "distribution",
+            "too",
+            "prove",
+            "durable",
+            "audience",
+            "control"
+          ]
+        },
+        {
+          "item": "IP and asset provenance controls are not mature enough for large-scale licensing",
+          "matched": true,
+          "matched_keywords": [
+            "asset",
+            "provenance",
+            "controls",
+            "large",
+            "scale",
+            "licensing"
+          ]
+        },
+        {
+          "item": "audience comments show repetitive plots, weak endings, and visual continuity issues",
+          "matched": true,
+          "matched_keywords": [
+            "audience",
+            "comments",
+            "show",
+            "repetitive",
+            "plots",
+            "weak",
+            "endings",
+            "continuity"
+          ]
+        }
+      ]
+    },
+    "positive_signals": {
+      "label": "positive_signals",
+      "score": 100.0,
+      "matched": 5,
+      "total": 5,
+      "details": [
+        {
+          "item": "cost per episode and cycle time improvements are substantial",
+          "matched": true,
+          "matched_keywords": [
+            "cost",
+            "per",
+            "episode",
+            "cycle",
+            "time",
+            "improvements"
+          ]
+        },
+        {
+          "item": "monthly output has increased more than 4x",
+          "matched": true,
+          "matched_keywords": [
+            "monthly",
+            "output",
+            "has",
+            "increased",
+            "more"
+          ]
+        },
+        {
+          "item": "top series show meaningful audience demand",
+          "matched": true,
+          "matched_keywords": [
+            "top",
+            "series",
+            "show",
+            "audience"
+          ]
+        },
+        {
+          "item": "the app has small but higher-intent monetization signal",
+          "matched": true,
+          "matched_keywords": [
+            "app",
+            "has",
+            "monetization",
+            "signal"
+          ]
+        },
+        {
+          "item": "human-in-the-loop workflow may preserve some editorial control",
+          "matched": true,
+          "matched_keywords": [
+            "human",
+            "workflow",
+            "may",
+            "some",
+            "control"
+          ]
+        }
+      ]
+    }
+  },
+  "failure_tags": [],
+  "note": "This is a lightweight automated evaluator. It checks artifact presence, numeric/string evidence, and rough golden fact coverage. Investment judgment quality should still be reviewed with the task rubric or an LLM/human judge."
+}

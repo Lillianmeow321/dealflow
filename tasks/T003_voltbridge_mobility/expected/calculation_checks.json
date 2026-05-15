@@ -1,0 +1,321 @@
+{
+  "task_id": "T003_voltbridge_mobility",
+  "checks": [
+    {
+      "metric": "Total revenue growth",
+      "formula": "(2025 revenue - 2024 revenue) / 2024 revenue",
+      "inputs": {
+        "2024_revenue_usd": 31000000,
+        "2025_revenue_usd": 46800000
+      },
+      "expected_value": 0.5097,
+      "expected_display": "51.0%",
+      "management_reported_value": "51%",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Blended ASP decline",
+      "formula": "(2025 revenue / 2025 units) / (2024 revenue / 2024 units) - 1",
+      "inputs": {
+        "2024_revenue_usd": 31000000,
+        "2024_units": 42250,
+        "2025_revenue_usd": 46800000,
+        "2025_units": 77200
+      },
+      "expected_value": -0.1738,
+      "expected_display": "-17.4%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Europe share of 2025 revenue",
+      "formula": "Europe 2025 revenue / total 2025 revenue",
+      "inputs": {
+        "europe_2025_revenue_usd": 36200000,
+        "total_2025_revenue_usd": 46800000
+      },
+      "expected_value": 0.7735,
+      "expected_display": "77.4%",
+      "management_reported_value": "Europe remains core profit pool",
+      "expected_status": "verified",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Southeast Asia retail ASP decline",
+      "formula": "2025 ASP / 2024 ASP - 1",
+      "inputs": {
+        "2024_asp_usd": 500,
+        "2025_asp_usd": 400
+      },
+      "expected_value": -0.20,
+      "expected_display": "-20.0%",
+      "management_reported_value": "fastest-growing region",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Southeast Asia marketplace ASP decline",
+      "formula": "2025 ASP / 2024 ASP - 1",
+      "inputs": {
+        "2024_asp_usd": 455,
+        "2025_asp_usd": 341
+      },
+      "expected_value": -0.2505,
+      "expected_display": "-25.1%",
+      "management_reported_value": "fastest-growing region",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Implied 2025 gross margin",
+      "formula": "2025 gross profit / 2025 revenue",
+      "inputs": {
+        "2025_gross_profit_usd": 11849500,
+        "2025_revenue_usd": 46800000
+      },
+      "expected_value": 0.2532,
+      "expected_display": "25.3%",
+      "management_reported_value": "28.4%",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Reported EBITDA margin",
+      "formula": "reported EBITDA / 2025 revenue",
+      "inputs": {
+        "reported_ebitda_usd": -1819600,
+        "2025_revenue_usd": 46800000
+      },
+      "expected_value": -0.0389,
+      "expected_display": "-3.9%",
+      "management_reported_value": "$1.1M positive adjusted EBITDA",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Adjusted EBITDA margin",
+      "formula": "management adjusted EBITDA / 2025 revenue",
+      "inputs": {
+        "management_adjusted_ebitda_usd": 1100000,
+        "2025_revenue_usd": 46800000
+      },
+      "expected_value": 0.0235,
+      "expected_display": "2.4%",
+      "management_reported_value": "$1.1M positive adjusted EBITDA",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Adjusted EBITDA add-back total",
+      "formula": "management adjusted EBITDA - reported EBITDA",
+      "inputs": {
+        "management_adjusted_ebitda_usd": 1100000,
+        "reported_ebitda_usd": -1819600
+      },
+      "expected_value": 2919600,
+      "expected_display": "$2.92M add-backs",
+      "management_reported_value": "$1.1M positive adjusted EBITDA",
+      "expected_status": "needs_follow_up",
+      "tolerance": 1000
+    },
+    {
+      "metric": "Questionable add-back share",
+      "formula": "questionable add-backs / total add-backs in adjusted EBITDA bridge",
+      "inputs": {
+        "questionable_addbacks_usd": 2180000,
+        "total_addbacks_usd": 2920000
+      },
+      "expected_value": 0.7466,
+      "expected_display": "74.7%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.01
+    },
+    {
+      "metric": "Operating cash flow margin",
+      "formula": "net cash from operating activities / 2025 revenue",
+      "inputs": {
+        "net_cash_from_operating_activities_usd": -9800000,
+        "2025_revenue_usd": 46800000
+      },
+      "expected_value": -0.2094,
+      "expected_display": "-20.9%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Accounts receivable growth",
+      "formula": "2025 accounts receivable / 2024 accounts receivable - 1",
+      "inputs": {
+        "2024_accounts_receivable_usd": 6900000,
+        "2025_accounts_receivable_usd": 11800000
+      },
+      "expected_value": 0.7101,
+      "expected_display": "71.0%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Inventory growth",
+      "formula": "2025 inventory / 2024 inventory - 1",
+      "inputs": {
+        "2024_inventory_usd": 9400000,
+        "2025_inventory_usd": 15300000
+      },
+      "expected_value": 0.6277,
+      "expected_display": "62.8%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Cash conversion cycle",
+      "formula": "DSO + DIO - DPO using average 2024/2025 AR inventory and AP balances",
+      "inputs": {
+        "average_accounts_receivable_usd": 9350000,
+        "average_inventory_usd": 12350000,
+        "average_accounts_payable_usd": 7200000,
+        "2025_revenue_usd": 46800000,
+        "2025_cogs_usd": 34950500
+      },
+      "expected_value": 126.7,
+      "expected_display": "126.7 days",
+      "management_reported_value": "95 days",
+      "expected_status": "inconsistent",
+      "tolerance": 2
+    },
+    {
+      "metric": "Year-end cash conversion cycle",
+      "formula": "DSO + DIO - DPO using year-end working capital schedule",
+      "inputs": {
+        "dso_days": 92.0,
+        "dio_days": 159.8,
+        "dpo_days": 89.8
+      },
+      "expected_value": 162.0,
+      "expected_display": "162.0 days",
+      "management_reported_value": "95 days",
+      "expected_status": "inconsistent",
+      "tolerance": 1
+    },
+    {
+      "metric": "AR over 90 days",
+      "formula": "AR over 90 days / total AR",
+      "inputs": {
+        "ar_over_90_days_usd": 2005000,
+        "total_ar_usd": 11800000
+      },
+      "expected_value": 0.1699,
+      "expected_display": "17.0%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Top three distributor AR concentration",
+      "formula": "top three distributor AR / total AR",
+      "inputs": {
+        "top_three_distributor_ar_usd": 7800000,
+        "total_ar_usd": 11800000
+      },
+      "expected_value": 0.6610,
+      "expected_display": "66.1%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Total inventory days",
+      "formula": "reported in inventory aging table",
+      "inputs": {
+        "total_inventory_days": 137
+      },
+      "expected_value": 137,
+      "expected_display": "137 days",
+      "management_reported_value": "118 days",
+      "expected_status": "inconsistent",
+      "tolerance": 1
+    },
+    {
+      "metric": "Inventory over 180 days",
+      "formula": "inventory over 180 days / total inventory value",
+      "inputs": {
+        "inventory_over_180_days_usd": 2900000,
+        "total_inventory_value_usd": 15300000
+      },
+      "expected_value": 0.1895,
+      "expected_display": "19.0%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Europe inventory over 180 days",
+      "formula": "Europe inventory over 180 days / Europe inventory value",
+      "inputs": {
+        "europe_inventory_over_180_days_usd": 2300000,
+        "europe_inventory_value_usd": 9400000
+      },
+      "expected_value": 0.2447,
+      "expected_display": "24.5%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Top three Europe distributor concentration - total company revenue",
+      "formula": "top three Europe distributor revenue / total company revenue",
+      "inputs": {
+        "top_3_distributor_revenue_usd": 24100000,
+        "total_2025_revenue_usd": 46800000
+      },
+      "expected_value": 0.5150,
+      "expected_display": "51.5%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Top three Europe distributor concentration - Europe revenue",
+      "formula": "top three Europe distributor revenue / Europe revenue",
+      "inputs": {
+        "top_3_distributor_revenue_usd": 24100000,
+        "europe_2025_revenue_usd": 36200000
+      },
+      "expected_value": 0.6657,
+      "expected_display": "66.6%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Warranty cost as percent of revenue",
+      "formula": "warranty cost / 2025 revenue",
+      "inputs": {
+        "warranty_cost_usd": 1869100,
+        "2025_revenue_usd": 46800000
+      },
+      "expected_value": 0.0399,
+      "expected_display": "4.0%",
+      "management_reported_value": "3.2%",
+      "expected_status": "inconsistent",
+      "tolerance": 0.005
+    },
+    {
+      "metric": "Europe Amazon return rate",
+      "formula": "reported in warranty and returns table",
+      "inputs": {
+        "return_rate": 0.094
+      },
+      "expected_value": 0.094,
+      "expected_display": "9.4%",
+      "management_reported_value": "not highlighted",
+      "expected_status": "needs_follow_up",
+      "tolerance": 0.001
+    }
+  ]
+}

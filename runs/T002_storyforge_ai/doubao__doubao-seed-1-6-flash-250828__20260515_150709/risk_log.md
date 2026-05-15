@@ -1,0 +1,10 @@
+# Risk Log
+
+| Risk | Evidence from Data Room | Severity | Suggested Follow-Up |
+|------|-------------------------|----------|---------------------|
+| **Platform Concentration Risk** | 71% of total views on TikTok (platform_distribution_report.md). | High | - Platform diversification strategy<br>- Historical algorithm dependency data<br>- TikTok’s content policy stability |
+| **Content Quality and Continuity Issues** | 11% continuity error rate (cost_comparison.csv); audience complaints about "AI-looking" art and repetitive plots (audience_comments.md). | High | - AI tool improvements for character consistency<br>- Long-term series performance (beyond 20 episodes)<br>- Human editor workload solutions |
+| **IP and Copyright Risks** | Inadequate asset provenance tracking, two platform notices for style similarity, and incomplete IP clearance (copyright_ip_memo.md). | Medium | - Panel-level asset tracking implementation<br>- External IP clearance for top 3 series<br>- Legal review of contractor IP assignments |
+| **Monetization Efficiency** | Paid conversion rate (9.3% vs. claimed 11%), revenue per viewer ($0.042), and paid user sensitivity to episode length (audience_comments.md). | High | - User acquisition cost for app vs. platform traffic<br>- Pricing strategy for premium content<br>- Repeatability of high-paid series (e.g., "CEO Contract Bride") |
+| **Content Fatigue and Hook Dependency** | Audience comments: "formulaic plot," "five romance tropes stitched together" (audience_comments.md); low continuation rates for non-hit series (e.g., "Grandma's Secret Mecha"). | Medium | - Genre expansion beyond romance/fantasy<br>- Story testing dashboard effectiveness<br>- Original IP development pipeline |
+| **Editor Workload Scalability** | Editor overtime hours increased from 6 to 18 hours/week (cost_comparison.csv); high workload during high-output periods. | Medium | - Automation potential for motion/template editing<br>- Team expansion plan for content quality assurance<br>- Overtime cost impact on margins |

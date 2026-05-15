@@ -1,0 +1,7 @@
+channel,gross_preorders,gross_deposit_usd,cancelled_preorders,net_preorders,avg_deposit_per_gross_preorder,estimated_cac_per_net_preorder,subscription_trial_opt_in_rate,paid_pilot_households,notes
+offline_demo_events,142,42600,23,119,300,188,38%,24,High-touch demo converts but requires event staffing
+elderly_care_partner_referrals,78,23400,6,72,300,94,61%,18,Best quality channel; adult children are buyers
+parenting_kol_campaign,58,17400,19,39,300,265,24%,8,High initial interest but high cancellation
+online_ads,29,8700,10,19,300,310,15%,3,Weak economics and low intent
+family_community_events,31,9300,8,23,300,155,18%,5,Moderate interest but low subscription opt-in
+total,338,101400,66,272,300,185,35%,58,Total includes preorders beyond structured pilot cohorts

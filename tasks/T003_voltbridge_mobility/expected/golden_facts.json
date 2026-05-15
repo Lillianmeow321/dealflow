@@ -1,0 +1,192 @@
+{
+  "task_id": "T003_voltbridge_mobility",
+  "company": "VoltBridge Mobility",
+  "recommended_answer_direction": "Request Revised Plan",
+  "golden_facts": [
+    {
+      "id": "gf_001",
+      "category": "growth",
+      "fact": "2025 revenue reached $46.8M versus $31.0M in 2024, or about 51.0% year-over-year growth.",
+      "source": "management_presentation.md; regional_sales.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_002",
+      "category": "growth_quality",
+      "fact": "Total units grew much faster than revenue, and blended ASP declined from about $734 in 2024 to about $606 in 2025, a 17.4% decline.",
+      "source": "regional_sales.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_003",
+      "category": "regional_mix",
+      "fact": "Europe remains 77.4% of 2025 revenue, but Southeast Asia is growing through lower-ASP channels.",
+      "source": "regional_sales.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_004",
+      "category": "sea_quality",
+      "fact": "Southeast Asia retail ASP declined from $500 to $400, and Southeast Asia marketplace ASP declined from $455 to $341.",
+      "source": "regional_sales.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_005",
+      "category": "margin",
+      "fact": "Management reports blended gross margin of 28.4%, but the channel gross margin table implies about 25.3% gross margin for 2025.",
+      "source": "management_presentation.md; gross_margin_by_channel.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_006",
+      "category": "earnings_quality",
+      "fact": "Management reports positive adjusted EBITDA of $1.1M, but the income statement shows reported EBITDA of -$1.82M and net income of -$3.00M in 2025.",
+      "source": "management_presentation.md; income_statement.csv; adjusted_ebitda_bridge.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_007",
+      "category": "earnings_quality",
+      "fact": "The adjusted EBITDA bridge adds back $2.92M, and about $2.18M of the add-backs are questionable launch marketing, incremental warranty, or inventory markdown add-backs.",
+      "source": "adjusted_ebitda_bridge.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_008",
+      "category": "cash_flow",
+      "fact": "Operating cash flow deteriorated to -$9.8M in 2025 despite revenue growth, driven by accounts receivable and inventory build.",
+      "source": "cash_flow_statement.csv; balance_sheet.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_009",
+      "category": "working_capital",
+      "fact": "Accounts receivable grew 71.0% and inventory grew 62.8% from 2024 to 2025, both faster than revenue growth of about 51.0%.",
+      "source": "balance_sheet.csv; regional_sales.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_010",
+      "category": "working_capital",
+      "fact": "Using average 2024/2025 balances, 2025 cash conversion cycle is about 126.7 days, above management's reported 95 days.",
+      "source": "income_statement.csv; balance_sheet.csv; management_presentation.md; working_capital_schedule.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_011",
+      "category": "working_capital",
+      "fact": "The working capital schedule shows year-end cash conversion cycle worsening to 162.0 days in 2025, while management's 2026 plan assumes improvement to 94.6 days.",
+      "source": "working_capital_schedule.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_012",
+      "category": "receivables",
+      "fact": "AR aging shows 17.0% of accounts receivable is over 90 days, and the top three European distributors represent about 66.1% of AR.",
+      "source": "ar_aging.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_013",
+      "category": "receivables",
+      "fact": "NordBike, VeloMaison, and Nordic Motion have payment issues tied to extended terms, rebate disputes, or warranty claims.",
+      "source": "ar_aging.csv; distributor_contracts_summary.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_014",
+      "category": "margin_mix",
+      "fact": "The lowest-margin channels are Southeast Asia marketplace at 14.0% and Southeast Asia retail partners at 18.5%, while Amazon marketplace is also pressured at 21.0%.",
+      "source": "gross_margin_by_channel.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_015",
+      "category": "inventory",
+      "fact": "Management reports inventory days of 118, but total inventory aging data shows 137 inventory days when China buffer stock is included.",
+      "source": "management_presentation.md; inventory_aging.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_016",
+      "category": "inventory",
+      "fact": "Total inventory over 180 days is $2.9M out of $15.3M, or about 19.0%; Europe is worse at 24.5% over 180 days.",
+      "source": "inventory_aging.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_017",
+      "category": "concentration",
+      "fact": "Top three European distributors represent 66.6% of Europe revenue and 51.5% of total company revenue.",
+      "source": "distributor_contracts_summary.md; regional_sales.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_018",
+      "category": "working_capital",
+      "fact": "Major European distributors have 75-90 day payment terms, and NordBike requested extended payment terms for 2026.",
+      "source": "distributor_contracts_summary.md",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_019",
+      "category": "warranty",
+      "fact": "Management reports warranty cost of 3.2% of revenue, but warranty_and_returns.csv shows total warranty cost of $1.869M on $46.8M revenue, or about 4.0%.",
+      "source": "management_presentation.md; warranty_and_returns.csv",
+      "importance": "high"
+    },
+    {
+      "id": "gf_020",
+      "category": "returns",
+      "fact": "Return rate is highest in Europe Amazon marketplace at 9.4%, and Europe top distributors also show elevated return rate at 6.8%.",
+      "source": "warranty_and_returns.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_021",
+      "category": "warranty",
+      "fact": "Battery-related claims total 1525 and motor-controller claims total 988 in 2025, with European top distributors showing winter motor controller issues and battery range complaints.",
+      "source": "warranty_and_returns.csv",
+      "importance": "medium"
+    },
+    {
+      "id": "gf_022",
+      "category": "regulatory",
+      "fact": "The 2025 cargo model and two battery pack variants require updated technical files before broad European distribution.",
+      "source": "regulatory_tariff_memo.md",
+      "importance": "high"
+    },
+    {
+      "id": "gf_023",
+      "category": "regulatory",
+      "fact": "Counsel says compliance risk is manageable but not fully reflected in the operating plan, including potential battery transport cost of 1.2-1.8 percentage points of revenue.",
+      "source": "regulatory_tariff_memo.md",
+      "importance": "high"
+    }
+  ],
+  "must_identify_risks": [
+    "headline revenue growth masks ASP decline and lower-quality channel mix",
+    "blended gross margin appears lower than management's reported 28.4%",
+    "Southeast Asia growth is lower ASP and lower margin",
+    "reported EBITDA and operating cash flow are negative despite positive adjusted EBITDA",
+    "adjusted EBITDA relies on low-quality add-backs such as launch marketing, warranty, and inventory markdowns",
+    "accounts receivable and inventory are growing faster than revenue",
+    "cash conversion cycle is worse than management's reported 95 days",
+    "AR aging shows concentration and overdue balances among top distributors",
+    "Europe distributor concentration is high",
+    "inventory days and aged inventory are worse than management's headline",
+    "warranty cost is higher than management's reported 3.2%",
+    "Europe Amazon and top distributors show elevated return or warranty issues",
+    "regulatory and battery transport costs are not fully reflected in the operating plan",
+    "working capital pressure may increase due to inventory build and distributor payment terms"
+  ],
+  "expected_positive_signals": [
+    "revenue growth is strong at about 51%",
+    "Europe remains a large revenue base",
+    "DTC has better gross margin and customer data, although it is small",
+    "Southeast Asia has meaningful volume growth",
+    "compliance risk is described as manageable if documentation and budget are improved"
+  ],
+  "expected_recommendation_rationale": "A strong answer should usually recommend Request Revised Plan rather than Proceed because the company has real export demand, but the operating plan needs revision for ASP decline, channel mix, inventory aging, warranty cost, distributor concentration, and regulatory cost before a PE/growth investment can be underwritten."
+}

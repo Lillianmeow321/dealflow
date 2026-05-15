@@ -1,0 +1,17 @@
+line_item,2023_usd,2024_usd,2025_usd,notes
+cash_and_equivalents,3200000,5600000,3800000,Cash declined despite revenue growth
+accounts_receivable,4100000,6900000,11800000,Longer distributor payment terms in Europe
+inventory,6200000,9400000,15300000,Ties to inventory_aging.csv
+prepaids_and_other_current_assets,800000,1200000,2100000,Includes deposits for battery cells and freight
+total_current_assets,14300000,23100000,33000000,Sum of current assets
+property_plant_equipment_net,1200000,2500000,4800000,Service centers tooling and testing equipment
+total_assets,15500000,25600000,37800000,Total assets
+accounts_payable,3500000,5800000,8600000,Supplier terms have expanded
+accrued_warranty_and_returns,400000,700000,1600000,Warranty accrual rising with claims
+customer_deposits,1100000,1500000,2000000,Distributor and DTC deposits
+short_term_debt,2000000,4000000,8000000,Working capital facilities
+total_current_liabilities,7000000,12000000,20200000,Sum of current liabilities
+long_term_debt,1000000,2000000,3000000,Equipment and warehouse loans
+total_liabilities,8000000,14000000,23200000,Total liabilities
+shareholders_equity,7500000,11600000,14600000,Equity including prior financings
+total_liabilities_and_equity,15500000,25600000,37800000,Check total

@@ -1,0 +1,20 @@
+{
+  "task": "T001_homepal_robotics",
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "temperature": 0.2,
+  "max_tokens": 10000,
+  "timestamp": "20260515_103835",
+  "required_files": [
+    "product_kpi_check.csv",
+    "investment_memo.md",
+    "risk_log.md",
+    "founder_follow_up_email.md"
+  ],
+  "parsed_artifacts": [
+    "founder_follow_up_email.md",
+    "investment_memo.md",
+    "product_kpi_check.csv",
+    "risk_log.md"
+  ]
+}
